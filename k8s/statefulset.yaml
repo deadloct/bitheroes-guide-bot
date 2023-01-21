@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: bitheroes-community-bot-statefulset
+  labels:
+    app: bitheroes-community-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bitheroes-community-bot
+  template:
+    metadata:
+      labels:
+        app: bitheroes-community-bot
+    spec:
+      containers:
+      - name: bitheroes-community-bot 
+        image: registry.digitalocean.com/deadloct/bitheroes-community-bot:latest
+        env:
+        - name: BITHEROES_COMMUNITY_BOT_AUTH_TOKEN
+          valueFrom:
+            secretKeyRef:
+                name: bitheroes-community-bot-secrets
+                key: BITHEROES_COMMUNITY_BOT_AUTH_TOKEN
