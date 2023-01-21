@@ -3,8 +3,10 @@ RUN apk update && apk add git gcc musl-dev
 WORKDIR /app
 COPY . .
 RUN go mod download
-RUN go build -o /bitheroes-community-bot
+RUN go build -o bitheroes-community-bot
 
 FROM golang:1.19-alpine
-COPY --from=base /bitheroes-community-bot /bitheroes-community-bot
-CMD ["/bitheroes-community-bot"]
+WORKDIR /app
+COPY --from=base /app/bitheroes-community-bot bitheroes-community-bot
+COPY --from=base /app/data data
+CMD ["/app/bitheroes-community-bot"]
