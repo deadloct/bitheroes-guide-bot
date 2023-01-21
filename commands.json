@@ -1,5 +1,39 @@
 [{
     "name": "d4",
-    "description": "See all known d4 strategy guides by type",
-    "output": "__Content__ would be **HERE**. https://google.com."
+    "description": "View community d4 strategies",
+    "subcommands": [{
+        "name": "index",
+        "description": "Lists all known d4 strategies",
+        "title": "D4 Strategy Index",
+        "source": "d4.md",
+        "sourceType": "markdown"
+    }, {
+        "name": "t19",
+        "description": "View community t19d4 strategies",
+        "subcommands": [{
+            "name": "index",
+            "description": "Lists all known t19d4 strategies",
+            "title": "D4 Strategy Index: T19",
+            "source": "d4-t19.md",
+            "sourceType": "markdown"
+        }, {
+            "name": "mcsploosh",
+            "description": "Image guide of McSploosh's strategy",
+            "title": "McSploosh's t19d4 Strategy Guide",
+            "source": "https://cdn.discordapp.com/attachments/980979592623960114/1057521425822531677/unknown.png",
+            "sourceType": "image"
+        }]
+    }, {
+        "name": "t18",
+        "description": "Lists all known d4 T18 strategies",
+        "title": "D4 Strategy Index: T18",
+        "source": "d4-t18.md",
+        "sourceType": "markdown"
+    }, {
+        "name": "t17",
+        "description": "Lists all known d4 T17 strategies",
+        "title": "D4 Strategy Index: T17",
+        "source": "d4-t17.md",
+        "sourceType": "markdown"
+    }]
 }]
