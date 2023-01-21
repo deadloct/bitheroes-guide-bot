@@ -50,11 +50,12 @@ func (cm *CommandManager) Start() error {
 	log.Debug("registering slash commands")
 	for _, c := range cm.commands {
 		cmd := c.GetCommand()
+		log.Debugf("creating command %v", c.GetName())
 		if _, err := cm.session.ApplicationCommandCreate(cm.session.State.User.ID, "", cmd); err != nil {
 			log.Panicf("cannot create command %v: %v", c.GetName(), err)
 		}
 
-		log.Debug("created command %v", c.GetName())
+		log.Debugf("created command %v", c.GetName())
 	}
 
 	log.Debug("finished registering slash commands")
@@ -71,13 +72,20 @@ func (cm *CommandManager) commandHandler(sess *discordgo.Session, i *discordgo.I
 		Data: &discordgo.InteractionResponseData{Content: "Loading results..."},
 	})
 
-	v := i.ApplicationCommandData().Name
-	cmd, ok := cm.commands[v]
+	name := i.ApplicationCommandData().Name
+	cmd, ok := cm.commands[name]
 	if !ok {
-		log.Error("unsupported command %s received", v)
+		log.Error("unsupported command %s received", name)
+		return
 	}
 
-	cmd.Handle(sess, i)
+	if err := cmd.Handle(sess, i); err != nil {
+		log.Error(err)
+		errstr := "There was an error loading that command, please try again later."
+		sess.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{
+			Content: &errstr,
+		})
+	}
 }
 
 func (cm *CommandManager) cleanupCommands() {
