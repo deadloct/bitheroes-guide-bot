@@ -23,7 +23,7 @@ func NewCommandManager(s *discordgo.Session) *CommandManager {
 }
 
 func (cm *CommandManager) LoadFromJSON(data []byte) {
-	var cmds []*GenericCommand
+	var cmds []*JSONCommand
 	if err := json.Unmarshal(data, &cmds); err != nil {
 		log.Fatal("Error during JSON unmarshall: ", err)
 	}

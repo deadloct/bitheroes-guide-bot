@@ -1,39 +1,323 @@
-[{
-    "name": "d4",
-    "description": "View community d4 strategies",
-    "subcommands": [{
-        "name": "index",
-        "description": "Lists all known d4 strategies",
-        "title": "D4 Strategy Index",
-        "source": "d4.md",
-        "sourceType": "markdown"
-    }, {
-        "name": "t19",
-        "description": "View community t19d4 strategies",
-        "subcommands": [{
-            "name": "index",
-            "description": "Lists all known t19d4 strategies",
-            "title": "D4 Strategy Index: T19",
-            "source": "d4-t19.md",
-            "sourceType": "markdown"
-        }, {
-            "name": "mcsploosh",
-            "description": "Image guide of McSploosh's strategy",
-            "title": "McSploosh's t19d4 Strategy Guide",
-            "source": "https://cdn.discordapp.com/attachments/980979592623960114/1057521425822531677/unknown.png",
-            "sourceType": "image"
-        }]
-    }, {
-        "name": "t18",
-        "description": "Lists all known d4 T18 strategies",
-        "title": "D4 Strategy Index: T18",
-        "source": "d4-t18.md",
-        "sourceType": "markdown"
-    }, {
-        "name": "t17",
-        "description": "Lists all known d4 T17 strategies",
-        "title": "D4 Strategy Index: T17",
-        "source": "d4-t17.md",
-        "sourceType": "markdown"
-    }]
-}]
+[
+    {
+        "name": "guides",
+        "description": "View community guides",
+        "subcommands": [
+            {
+                "name": "t17d4",
+                "description": "View community t17d4 Clover strategies",
+                "options": {
+                    "authors": [
+                        {
+                            "name": "_cybermuffin_",
+                            "description": "_cybermuffin_'s clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-_cybermuffin_.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "a_poor_ninja",
+                            "description": "a_poor_ninja's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-a_poor_ninja.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ballbreaker",
+                            "description": "ballbreaker's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-ballbreaker.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BillyIdol",
+                            "description": "BillyIdol's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-billyidol_1.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                },
+                                {
+                                    "filename": "d4-t17-billyidol_2.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Chocomint",
+                            "description": "Chocomint's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-chocomints_clover_guide.pdf",
+                                    "filetype": "document",
+                                    "contenttype": "application/pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Crow",
+                            "description": "Crow's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-crow.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "DarkHand6",
+                            "description": "DarkHand6's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-darkhand6.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dispel1",
+                            "description": "Dispel1's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-dispel1.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fyra",
+                            "description": "Fyra's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-fyra.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Goku",
+                            "description": "Goku's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-goku.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Hael",
+                            "description": "Hael's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-hael.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Huen11 and ZombieSlayer13",
+                            "description": "Huen11 and ZombieSlayer13's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-huen11_zombieslayer13.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Josiah_4",
+                            "description": "Josiah_4's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-josiah_4.pdf",
+                                    "filetype": "document",
+                                    "contenttype": "application/pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kruste",
+                            "description": "Kruste's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-kruste.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PAINisGOD93",
+                            "description": "PAINisGOD93's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-painisgod93.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Smolder",
+                            "description": "Smolder's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-smolder.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Techno",
+                            "description": "Techno's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-techno.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tolton",
+                            "description": "Tolton's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-tolton.png",
+                                    "filetype": "image",
+                                    "contenttype": "image/png"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VesaN",
+                            "description": "VesaN's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-vesan.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Youreprettycute",
+                            "description": "Youreprettycute's clover guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-youreprettycute.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "t18d4",
+                "description": "View community t18d4 Uzum's VIP strategies",
+                "options": {
+                    "authors": [
+                        {
+                            "name": "Goku",
+                            "description": "Goku's Uzum VIP guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t18-goku.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Huen11 and ZombieSlayer13",
+                            "description": "Huen11 and ZombieSlayer13's Uzum's VIP guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t18-huen11_zombieslayer13.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "t19d4",
+                "description": "View community t19d4 W3-4TY strategies",
+                "options": {
+                    "authors": [
+                        {
+                            "name": "JoeBu and ZombieSlayer13",
+                            "description": "JoeBu and ZombieSlayer13's W3 guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-joebu_zombieslayer13.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "McSploosh",
+                            "description": "McSploosh's W3 guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-mcsploosh.png",
+                                    "filetype": "image",
+                                    "contenttype": "image/png"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ShawnBond",
+                            "description": "ShawnBond's W3 guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-shawnbond.jpg",
+                                    "filetype": "image",
+                                    "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Sizz",
+                            "description": "Sizz's W3 guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-sizz.pdf",
+                                    "filetype": "document",
+                                    "contenttype": "application/pdf"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
