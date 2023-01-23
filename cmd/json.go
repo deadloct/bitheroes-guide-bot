@@ -45,9 +45,9 @@ type JSONCommandOption struct {
 
 // Either a file or a link
 type JSONCommandOptionAttachment struct {
-	FileName    string     `json:"filename"`
-	FileType    SourceType `json:"filetype"`
-	ContentType string     `json:"contenttype"`
+	FileName       string     `json:"filename"`
+	AttachmentType SourceType `json:"attachmenttype"`
+	ContentType    string     `json:"contenttype"`
 
 	Link     string   `json:"link"`
 	LinkType LinkType `json:"linktype"`
@@ -124,6 +124,8 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 	options := c.buildSubCommandList(i.ApplicationCommandData().Options)
 	options = append([]string{i.ApplicationCommandData().Name}, options...)
+	log.Debugf("handling request: %v id:%v", options, i.ID)
+
 	node := c.findSubJSONCommand(options, 0)
 	if node == nil {
 		return fmt.Errorf("could not find handler for command %s", strings.Join(options, " "))
@@ -132,6 +134,8 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 	params := c.getParams(i.ApplicationCommandData().Options)
 
 	for _, param := range params {
+		log.Debugf("with parameter: %v:%v id:%v", param.Name, param.Value, i.ID)
+
 		// super hack to just get this working, need to flesh this out to be more generic
 		switch param.Name {
 		case "authors":
@@ -143,7 +147,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 			for _, guide := range guides {
 				if guide.Name == param.StringValue() {
 					for _, attachment := range guide.Attachments {
-						switch attachment.FileType {
+						switch attachment.AttachmentType {
 						case Markdown:
 							v, err := ioutil.ReadFile(path.Join(FilesLocation, "responses", attachment.FileName))
 							if err != nil {
@@ -161,7 +165,9 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 							switch attachment.LinkType {
 							case LinkTypeVideo:
 								embed.Video = &discordgo.MessageEmbedVideo{
-									URL: attachment.Link,
+									URL:    attachment.Link,
+									Width:  600,
+									Height: 400,
 								}
 
 							case LinkTypePhoto:
@@ -171,7 +177,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 							default:
 								embed.Description = fmt.Sprintf(
-									"Link to the guide: [%s](%s)",
+									"[%s](%s)",
 									attachment.Link,
 									attachment.Link,
 								)
@@ -238,7 +244,6 @@ func (c *JSONCommand) getParams(options []*discordgo.ApplicationCommandInteracti
 }
 
 func (c *JSONCommand) findSubJSONCommand(path []string, depth int) *JSONCommand {
-	log.Debugf("searching for %s on node:%s, depth:%d", path, c.Name, depth)
 	if len(path) == 1 && c.Name == path[0] {
 		return c
 	}

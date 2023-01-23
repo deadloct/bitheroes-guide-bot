@@ -13,7 +13,7 @@
                             "description": "ChubbyDaemon's Beginner Guide from the Wiki",
                             "attachments": [
                                 {
-                                    "filetype": "link",
+                                    "attachmenttype": "link",
                                     "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide",
                                     "linktype": "direct"
                                 }
@@ -24,7 +24,7 @@
                             "description": "Jerm's Guide to Bit Heroes",
                             "attachments": [
                                 {
-                                    "filetype": "link",
+                                    "attachmenttype": "link",
                                     "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub",
                                     "linktype": "direct"
                                 }
@@ -39,33 +39,33 @@
                     "authors": [
                         {
                             "name": "_cybermuffin_",
-                            "description": "_cybermuffin_'s clover guide",
+                            "description": "_cybermuffin_'s Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-_cybermuffin_.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "a_poor_ninja",
-                            "description": "a_poor_ninja's clover guide",
+                            "description": "a_poor_ninja's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-a_poor_ninja.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "ballbreaker",
-                            "description": "ballbreaker's clover guide",
+                            "description": "ballbreaker's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-ballbreaker.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -75,7 +75,7 @@
                             "description": "ArchangelMichael's Full Clover Run Video",
                             "attachments": [
                                 {
-                                    "filetype": "link",
+                                    "attachmenttype": "link",
                                     "link": "https://www.youtube.com/watch?v=jsVGkAngeRU",
                                     "linktype": "direct"
                                 }
@@ -83,137 +83,136 @@
                         },
                         {
                             "name": "BillyIdol",
-                            "description": "BillyIdol's clover guide",
+                            "description": "BillyIdol's Clover Guide",
                             "attachments": [
                                 {
-                                    "filename": "d4-t17-billyidol_1.jpg",
-                                    "filetype": "file",
-                                    "contenttype": "image/jpg"
+                                    "filename": "d4-t17-billyidol.md",
+                                    "attachmenttype": "markdown"
                                 },
                                 {
-                                    "filename": "d4-t17-billyidol_2.jpg",
-                                    "filetype": "file",
-                                    "contenttype": "image/jpg"
+                                    "attachmenttype": "link",
+                                    "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4",
+                                    "linktype": "direct"
                                 }
                             ]
                         },
                         {
                             "name": "Chocomint",
-                            "description": "Chocomint's clover guide",
+                            "description": "Chocomint's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-chocomints_clover_guide.pdf",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
                         },
                         {
                             "name": "Crow",
-                            "description": "Crow's clover guide",
+                            "description": "Crow's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-crow.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "DarkHand6",
-                            "description": "DarkHand6's clover guide",
+                            "description": "DarkHand6's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-darkhand6.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Dispel1",
-                            "description": "Dispel1's clover guide",
+                            "description": "Dispel1's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-dispel1.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Fyra",
-                            "description": "Fyra's clover guide",
+                            "description": "Fyra's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-fyra.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Goku",
-                            "description": "Goku's clover guide",
+                            "description": "Goku's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-goku.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Hael",
-                            "description": "Hael's clover guide",
+                            "description": "Hael's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-hael.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Huen11 and ZombieSlayer13",
-                            "description": "Huen11 and ZombieSlayer13's clover guide",
+                            "description": "Huen11 and ZombieSlayer13's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-huen11_zombieslayer13.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Josiah_4",
-                            "description": "Josiah_4's clover guide",
+                            "description": "Josiah_4's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-josiah_4.pdf",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
                         },
                         {
                             "name": "Kruste",
-                            "description": "Kruste's clover guide",
+                            "description": "Kruste's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-kruste.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "PAINisGOD93",
-                            "description": "PAINisGOD93's clover guide",
+                            "description": "PAINisGOD93's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-painisgod93.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -223,7 +222,7 @@
                             "description": "PrimeDyze's Clover Video",
                             "attachments": [
                                 {
-                                    "filetype": "link",
+                                    "attachmenttype": "link",
                                     "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk",
                                     "linktype": "direct"
                                 }
@@ -231,55 +230,55 @@
                         },
                         {
                             "name": "Smolder",
-                            "description": "Smolder's clover guide",
+                            "description": "Smolder's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-smolder.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Techno",
-                            "description": "Techno's clover guide",
+                            "description": "Techno's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-techno.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Tolton",
-                            "description": "Tolton's clover guide",
+                            "description": "Tolton's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-tolton.png",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/png"
                                 }
                             ]
                         },
                         {
                             "name": "VesaN",
-                            "description": "VesaN's clover guide",
+                            "description": "VesaN's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-vesan.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
                         },
                         {
                             "name": "Youreprettycute",
-                            "description": "Youreprettycute's clover guide",
+                            "description": "Youreprettycute's Clover Guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t17-youreprettycute.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -293,12 +292,22 @@
                 "options": {
                     "authors": [
                         {
+                            "name": "BillyIdol",
+                            "description": "BillyIdol's Uzum VIP Strategy",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t18-billyidol.md",
+                                    "attachmenttype": "markdown"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Ember",
                             "description": "Ember's Uzum VIP guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t18-ember.pdf",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
@@ -309,7 +318,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t18-goku.png",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/png"
                                 }
                             ]
@@ -320,7 +329,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t18-huen11_zombieslayer13.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -334,12 +343,22 @@
                 "options": {
                     "authors": [
                         {
+                            "name": "BillyIdol",
+                            "description": "BillyIdol's W3 guide, Modified JoeBu Strategy",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-billyidol.md",
+                                    "attachmenttype": "markdown"
+                                }
+                            ]
+                        },
+                        {
                             "name": "JoeBu and ZombieSlayer13",
                             "description": "JoeBu and ZombieSlayer13's W3 guide",
                             "attachments": [
                                 {
                                     "filename": "d4-t19-joebu_zombieslayer13.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -350,7 +369,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-mcsploosh.png",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/png"
                                 }
                             ]
@@ -361,7 +380,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-shawnbond.jpg",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -372,7 +391,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-sizz.pdf",
-                                    "filetype": "file",
+                                    "attachmenttype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
