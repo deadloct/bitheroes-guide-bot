@@ -9,6 +9,17 @@
                 "options": {
                     "authors": [
                         {
+                            "name": "ChubbyDaemon",
+                            "description": "ChubbyDaemon's Beginner Guide from the Wiki",
+                            "attachments": [
+                                {
+                                    "filetype": "link",
+                                    "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide",
+                                    "linktype": "direct"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Jermoshua",
                             "description": "Jerm's Guide to Bit Heroes",
                             "attachments": [
