@@ -15,9 +15,17 @@ import (
 type SourceType string
 
 const (
-	Document SourceType = "document"
-	Image    SourceType = "image"
+	File     SourceType = "file"
 	Markdown SourceType = "markdown"
+	Link     SourceType = "link"
+)
+
+type LinkType string
+
+const (
+	LinkTypeDirect LinkType = "direct"
+	LinkTypePhoto  LinkType = "photo"
+	LinkTypeVideo  LinkType = "video"
 )
 
 var FilesLocation = path.Join(".", "data")
@@ -35,10 +43,14 @@ type JSONCommandOption struct {
 	Attachments []*JSONCommandOptionAttachment `json:"attachments"`
 }
 
+// Either a file or a link
 type JSONCommandOptionAttachment struct {
 	FileName    string     `json:"filename"`
 	FileType    SourceType `json:"filetype"`
 	ContentType string     `json:"contenttype"`
+
+	Link     string   `json:"link"`
+	LinkType LinkType `json:"linktype"`
 }
 
 func NewJSONCommand() *JSONCommand { return &JSONCommand{} }
@@ -139,28 +151,35 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 							}
 
 							embeds = append(embeds, &discordgo.MessageEmbed{
-								Title:       node.Description,
+								Title:       guide.Description,
 								Description: string(v[:]),
 							})
 
-						case Image:
-							content = guide.Description
-							filePath := path.Join(FilesLocation, "responses", attachment.FileName)
-							log.Debug("loading %s", filePath)
-							fi, err := os.Open(filePath)
-							if err != nil {
-								return fmt.Errorf("could not open file %s: %v", filePath, err)
-							}
-							defer fi.Close()
+						case Link:
+							embed := &discordgo.MessageEmbed{Title: guide.Description}
 
-							dfi := &discordgo.File{
-								Name:        attachment.FileName,
-								ContentType: attachment.ContentType,
-								Reader:      fi,
-							}
-							files = append(files, dfi)
+							switch attachment.LinkType {
+							case LinkTypeVideo:
+								embed.Video = &discordgo.MessageEmbedVideo{
+									URL: attachment.Link,
+								}
 
-						case Document:
+							case LinkTypePhoto:
+								embed.Image = &discordgo.MessageEmbedImage{
+									URL: attachment.Link,
+								}
+
+							default:
+								embed.Description = fmt.Sprintf(
+									"Link to the guide: [%s](%s)",
+									attachment.Link,
+									attachment.Link,
+								)
+							}
+
+							embeds = append(embeds, embed)
+
+						case File:
 							content = guide.Description
 							filePath := path.Join(FilesLocation, "responses", attachment.FileName)
 							log.Debug("loading %s", filePath)
