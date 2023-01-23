@@ -188,7 +188,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 						case File:
 							content = guide.Description
 							filePath := path.Join(FilesLocation, "responses", attachment.FileName)
-							log.Debug("loading %s", filePath)
+							log.Debugf("loading %s", filePath)
 							fi, err := os.Open(filePath)
 							if err != nil {
 								return fmt.Errorf("could not open file %s: %v", filePath, err)

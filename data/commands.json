@@ -32,7 +32,26 @@
                         }
                     ]
                 }
-            }, {
+            },
+            {
+                "name": "t16d4",
+                "description": "View community t16d4 escarium strategies",
+                "options": {
+                    "authors": [
+                        {
+                            "name": "BillyIdol",
+                            "description": "BillyIdol's Escarium Guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t16-billyidol.md",
+                                    "attachmenttype": "markdown"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
                 "name": "t17d4",
                 "description": "View community t17d4 Clover strategies",
                 "options": {
