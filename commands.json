@@ -14,7 +14,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-_cybermuffin_.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -25,7 +25,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-a_poor_ninja.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -36,8 +36,19 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-ballbreaker.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ArchangelMichael",
+                            "description": "ArchangelMichael's Full Clover Run Video",
+                            "attachments": [
+                                {
+                                    "filetype": "link",
+                                    "link": "https://www.youtube.com/watch?v=jsVGkAngeRU",
+                                    "linktype": "direct"
                                 }
                             ]
                         },
@@ -47,12 +58,12 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-billyidol_1.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 },
                                 {
                                     "filename": "d4-t17-billyidol_2.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -63,7 +74,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-chocomints_clover_guide.pdf",
-                                    "filetype": "document",
+                                    "filetype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
@@ -74,7 +85,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-crow.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -85,7 +96,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-darkhand6.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -96,7 +107,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-dispel1.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -107,7 +118,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-fyra.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -118,7 +129,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-goku.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -129,7 +140,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-hael.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -140,7 +151,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-huen11_zombieslayer13.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -151,7 +162,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-josiah_4.pdf",
-                                    "filetype": "document",
+                                    "filetype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
@@ -162,7 +173,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-kruste.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -173,8 +184,19 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-painisgod93.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PrimeDyze",
+                            "description": "PrimeDyze's Clover Video",
+                            "attachments": [
+                                {
+                                    "filetype": "link",
+                                    "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk",
+                                    "linktype": "direct"
                                 }
                             ]
                         },
@@ -184,7 +206,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-smolder.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -195,7 +217,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-techno.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -206,7 +228,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-tolton.png",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/png"
                                 }
                             ]
@@ -217,7 +239,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-vesan.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -228,7 +250,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t17-youreprettycute.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -246,9 +268,9 @@
                             "description": "Goku's Uzum VIP guide",
                             "attachments": [
                                 {
-                                    "filename": "d4-t18-goku.jpg",
-                                    "filetype": "image",
-                                    "contenttype": "image/jpg"
+                                    "filename": "d4-t18-goku.png",
+                                    "filetype": "file",
+                                    "contenttype": "image/png"
                                 }
                             ]
                         },
@@ -258,7 +280,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t18-huen11_zombieslayer13.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -277,7 +299,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-joebu_zombieslayer13.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -288,7 +310,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-mcsploosh.png",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/png"
                                 }
                             ]
@@ -299,7 +321,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-shawnbond.jpg",
-                                    "filetype": "image",
+                                    "filetype": "file",
                                     "contenttype": "image/jpg"
                                 }
                             ]
@@ -310,7 +332,7 @@
                             "attachments": [
                                 {
                                     "filename": "d4-t19-sizz.pdf",
-                                    "filetype": "document",
+                                    "filetype": "file",
                                     "contenttype": "application/pdf"
                                 }
                             ]
