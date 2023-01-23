@@ -264,6 +264,17 @@
                 "options": {
                     "authors": [
                         {
+                            "name": "Ember",
+                            "description": "Ember's Uzum VIP guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t18-ember.pdf",
+                                    "filetype": "file",
+                                    "contenttype": "application/pdf"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Goku",
                             "description": "Goku's Uzum VIP guide",
                             "attachments": [
