@@ -4,6 +4,24 @@
         "description": "View community guides",
         "subcommands": [
             {
+                "name": "early-game",
+                "description": "Strategy guides for new and intermediate players",
+                "options": {
+                    "authors": [
+                        {
+                            "name": "Jermoshua",
+                            "description": "Jerm's Guide to Bit Heroes",
+                            "attachments": [
+                                {
+                                    "filetype": "link",
+                                    "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub",
+                                    "linktype": "direct"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }, {
                 "name": "t17d4",
                 "description": "View community t17d4 Clover strategies",
                 "options": {
