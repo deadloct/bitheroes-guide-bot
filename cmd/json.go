@@ -220,6 +220,10 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 	return err
 }
 
+func (c *JSONCommand) Help() string {
+	return c.help(0)
+}
+
 func (c *JSONCommand) buildSubCommandList(options []*discordgo.ApplicationCommandInteractionDataOption) []string {
 	if len(options) == 0 || options[0].Value != nil {
 		return nil
@@ -229,18 +233,6 @@ func (c *JSONCommand) buildSubCommandList(options []*discordgo.ApplicationComman
 	childOptions := c.buildSubCommandList(options[0].Options)
 	result = append(result, childOptions...)
 	return result
-}
-
-func (c *JSONCommand) getParams(options []*discordgo.ApplicationCommandInteractionDataOption) []*discordgo.ApplicationCommandInteractionDataOption {
-	if len(options) == 0 {
-		return nil
-	}
-
-	if options[0].Type == discordgo.ApplicationCommandOptionSubCommand {
-		return c.getParams(options[0].Options)
-	}
-
-	return options
 }
 
 func (c *JSONCommand) findSubJSONCommand(path []string, depth int) *JSONCommand {
@@ -259,4 +251,43 @@ func (c *JSONCommand) findSubJSONCommand(path []string, depth int) *JSONCommand 
 	}
 
 	return nil
+}
+
+func (c *JSONCommand) getParams(options []*discordgo.ApplicationCommandInteractionDataOption) []*discordgo.ApplicationCommandInteractionDataOption {
+	if len(options) == 0 {
+		return nil
+	}
+
+	if options[0].Type == discordgo.ApplicationCommandOptionSubCommand {
+		return c.getParams(options[0].Options)
+	}
+
+	return options
+}
+
+func (c *JSONCommand) help(depth int) string {
+	var text string
+
+	if depth == 0 {
+		text += fmt.Sprintf("`/%s`: %s\n", c.Name, c.Description)
+	} else {
+		text += fmt.Sprintf("%s`%s`: %s\n", strings.Repeat("\t", depth), c.Name, c.Description)
+	}
+
+	if len(c.Subcommands) > 0 {
+		for _, cmd := range c.Subcommands {
+			text += cmd.help(depth + 1)
+		}
+
+		return text
+	}
+
+	for key, opts := range c.Options {
+		text += fmt.Sprintf("%s`%s`\n", strings.Repeat("\t", depth+1), key)
+		for _, opt := range opts {
+			text += fmt.Sprintf("%s`%s`: %s\n", strings.Repeat("\t", depth+2), opt.Name, opt.Description)
+		}
+	}
+
+	return text
 }

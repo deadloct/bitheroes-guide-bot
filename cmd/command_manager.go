@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"encoding/json"
+	"io/ioutil"
 
 	"github.com/bwmarrin/discordgo"
 	log "github.com/sirupsen/logrus"
@@ -11,6 +12,7 @@ type Command interface {
 	GetCommand() *discordgo.ApplicationCommand
 	GetName() string
 	Handle(sess *discordgo.Session, i *discordgo.InteractionCreate) error
+	Help() string
 }
 
 type CommandManager struct {
@@ -19,25 +21,18 @@ type CommandManager struct {
 }
 
 func NewCommandManager(s *discordgo.Session) *CommandManager {
-	return &CommandManager{commands: make(map[string]Command), session: s}
-}
+	cm := &CommandManager{commands: make(map[string]Command), session: s}
+	cm.loadFromJSON()
 
-func (cm *CommandManager) LoadFromJSON(data []byte) {
-	var cmds []*JSONCommand
-	if err := json.Unmarshal(data, &cmds); err != nil {
-		log.Fatal("Error during JSON unmarshall: ", err)
-	}
+	// Add help last so it gets all the other commands
+	h := NewHelp(cm.commands)
+	cm.commands[h.GetName()] = h
 
-	if len(cmds) == 0 {
-		log.Fatal("No commmands to load, exiting...")
-	}
-
-	for _, cmd := range cmds {
-		cm.commands[cmd.GetName()] = cmd
-	}
+	return cm
 }
 
 func (cm *CommandManager) Start() error {
+
 	// SlashCommands command handler
 	cm.session.AddHandler(cm.commandHandler)
 
@@ -66,6 +61,25 @@ func (cm *CommandManager) Stop() {
 	cm.cleanupCommands()
 }
 
+func (cm *CommandManager) cleanupCommands() {
+	existingCommands, err := cm.session.ApplicationCommands(cm.session.State.User.ID, "")
+	if err != nil {
+		log.Errorf("could not retrieve commands to do a pre-startup cleanup")
+	}
+
+	log.Debug("cleaning up old slash commands...")
+	for _, v := range existingCommands {
+		log.Debugf("removing command %v", v.Name)
+		if err := cm.session.ApplicationCommandDelete(cm.session.State.User.ID, "", v.ID); err != nil {
+			log.Debugf("unable to remove command %v: %v", v.Name, err)
+		} else {
+			log.Debugf("removed command %v", v.Name)
+		}
+	}
+
+	log.Debug("finished old command cleanup")
+}
+
 func (cm *CommandManager) commandHandler(sess *discordgo.Session, i *discordgo.InteractionCreate) {
 	sess.InteractionRespond(i.Interaction, &discordgo.InteractionResponse{
 		Type: discordgo.InteractionResponseChannelMessageWithSource,
@@ -88,21 +102,22 @@ func (cm *CommandManager) commandHandler(sess *discordgo.Session, i *discordgo.I
 	}
 }
 
-func (cm *CommandManager) cleanupCommands() {
-	existingCommands, err := cm.session.ApplicationCommands(cm.session.State.User.ID, "")
+func (cm *CommandManager) loadFromJSON() {
+	data, err := ioutil.ReadFile("./data/commands.json")
 	if err != nil {
-		log.Errorf("could not retrieve commands to do a pre-startup cleanup")
+		log.Fatal("error when opening commands JSON: ", err)
 	}
 
-	log.Debug("cleaning up old slash commands...")
-	for _, v := range existingCommands {
-		log.Debugf("removing command %v", v.Name)
-		if err := cm.session.ApplicationCommandDelete(cm.session.State.User.ID, "", v.ID); err != nil {
-			log.Debugf("unable to remove command %v: %v", v.Name, err)
-		} else {
-			log.Debugf("removed command %v", v.Name)
-		}
+	var cmds []*JSONCommand
+	if err := json.Unmarshal(data, &cmds); err != nil {
+		log.Fatal("error during JSON unmarshall: ", err)
 	}
 
-	log.Debug("finished old command cleanup")
+	if len(cmds) == 0 {
+		log.Fatal("no commmands to load, exiting...")
+	}
+
+	for _, cmd := range cmds {
+		cm.commands[cmd.GetName()] = cmd
+	}
 }

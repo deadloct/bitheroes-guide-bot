@@ -1,7 +1,6 @@
 package main
 
 import (
-	"io/ioutil"
 	"os"
 	"os/signal"
 	"syscall"
@@ -22,14 +21,7 @@ func main() {
 
 	// Listen for server (guild) messages only
 	session.Identify.Intents = discordgo.IntentsGuildMessages
-
-	commandsJSON, err := ioutil.ReadFile("./data/commands.json")
-	if err != nil {
-		log.Fatal("Error when opening commands JSON: ", err)
-	}
-
 	commandManager := cmd.NewCommandManager(session)
-	commandManager.LoadFromJSON(commandsJSON)
 	if err := commandManager.Start(); err != nil {
 		log.Panic(err)
 	}

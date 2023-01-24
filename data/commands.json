@@ -145,6 +145,11 @@
                                     "filename": "d4-t17-darkhand6.jpg",
                                     "attachmenttype": "file",
                                     "contenttype": "image/jpg"
+                                },
+                                {
+                                    "filename": "d4-t17-darkhand6_2.jpg",
+                                    "attachmenttype": "file",
+                                    "contenttype": "image/jpg"
                                 }
                             ]
                         },
@@ -361,6 +366,17 @@
                 "description": "View community t19d4 W3-4TY strategies",
                 "options": {
                     "authors": [
+                        {
+                            "name": "Adhesive81",
+                            "description": "Adhesive81's W3-4TY Guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t19-adhesive81.pdf",
+                                    "attachmenttype": "file",
+                                    "contenttype": "application/pdf"
+                                }
+                            ]
+                        },
                         {
                             "name": "BillyIdol",
                             "description": "BillyIdol's W3 guide, Modified JoeBu Strategy",
