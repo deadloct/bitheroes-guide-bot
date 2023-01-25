@@ -1,5 +1,5 @@
 .env
 .vscode
-bitheroes-community-bot
+bitheroes-guide-bot
 __debug_bin
 k8s/secret.yaml

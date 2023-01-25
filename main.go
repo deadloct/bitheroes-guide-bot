@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/deadloct/bitheroes-community-bot/cmd"
+	"github.com/deadloct/bitheroes-guide-bot/cmd"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -14,7 +14,7 @@ func main() {
 	log.Info("verbose logs enabled")
 	log.SetLevel(log.DebugLevel)
 
-	session, err := discordgo.New("Bot " + os.Getenv("BITHEROES_COMMUNITY_BOT_AUTH_TOKEN"))
+	session, err := discordgo.New("Bot " + os.Getenv("BITHEROES_GUIDE_BOT_AUTH_TOKEN"))
 	if err != nil {
 		log.Panic(err)
 	}

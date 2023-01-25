@@ -1,4 +1,4 @@
-module github.com/deadloct/bitheroes-community-bot
+module github.com/deadloct/bitheroes-guide-bot
 
 go 1.18
 

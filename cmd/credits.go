@@ -35,7 +35,7 @@ func (c *Credits) Handle(sess *discordgo.Session, i *discordgo.InteractionCreate
 
 _Idea for Bot_: Trogburn
 
-_Bot Coding_: BillyIdol ([Source Code on GitHub](https://github.com/deadloct/bitheroes-community-bot))
+_Bot Coding_: BillyIdol ([Source Code on GitHub](https://github.com/deadloct/bitheroes-guide-bot))
 
 _Data Aggregation_: BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13
 
