@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"sort"
 
 	"github.com/bwmarrin/discordgo"
 )
@@ -12,11 +13,19 @@ const (
 )
 
 type Help struct {
-	commands map[string]Command
+	commands    map[string]Command
+	outputOrder []string
 }
 
 func NewHelp(cmds map[string]Command) *Help {
-	return &Help{commands: cmds}
+	oo := []string{helpName}
+	for key := range cmds {
+		oo = append(oo, key)
+	}
+
+	sort.Strings(oo)
+
+	return &Help{commands: cmds, outputOrder: oo}
 }
 
 func (h *Help) GetCommand() *discordgo.ApplicationCommand {
@@ -27,15 +36,14 @@ func (h *Help) GetCommand() *discordgo.ApplicationCommand {
 }
 
 func (h *Help) GetName() string {
-	return "help"
+	return helpName
 }
 
 func (h *Help) Handle(sess *discordgo.Session, i *discordgo.InteractionCreate) error {
-	content := h.Help()
-	for key, cmd := range h.commands {
-		if key != h.GetName() {
-			content += cmd.Help()
-		}
+	var content string
+
+	for _, key := range h.outputOrder {
+		content += h.commands[key].Help()
 	}
 
 	resp := &discordgo.WebhookEdit{Content: &content}
