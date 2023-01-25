@@ -282,17 +282,11 @@ func (c *JSONCommand) help(depth int) string {
 		return text
 	}
 
-	if len(c.Options) > 0 {
-		var params []string
-		for key, _ := range c.Options {
-			params = append(params, fmt.Sprintf("`%s`", key))
-			// Disable option values for now since they are verbose and unnecessary
-			// 	for _, opt := range opts {
-			// 		text += fmt.Sprintf("%s`%s`: %s\n", strings.Repeat("\t", depth+2), opt.Name, opt.Description)
-			// 	}
+	for key, opts := range c.Options {
+		text += fmt.Sprintf("%s`%s`\n", strings.Repeat("\t", depth+1), key)
+		for _, opt := range opts {
+			text += fmt.Sprintf("%s`%s`: %s\n", strings.Repeat("\t", depth+2), opt.Name, opt.Description)
 		}
-
-		text += fmt.Sprintf("%sParams: %v\n", strings.Repeat("\t", depth+1), strings.Join(params, " "))
 	}
 
 	return text
