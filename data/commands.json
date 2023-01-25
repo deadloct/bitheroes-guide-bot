@@ -14,8 +14,7 @@
                             "attachments": [
                                 {
                                     "attachmenttype": "link",
-                                    "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide",
-                                    "linktype": "direct"
+                                    "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide"
                                 }
                             ]
                         },
@@ -30,13 +29,50 @@
                             ]
                         },
                         {
+                            "name": "iWushock: Basics on Making a DPS Build",
+                            "description": "The basics on how to put together a DPS build",
+                            "attachments": [
+                                {
+                                    "attachmenttype": "link",
+                                    "link": "https://www.youtube.com/watch?v=C9H3hXbrMY8"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "iWushock: Guild Perks | What Order Do I Pick?",
+                            "description": "Guild perk order strategy for guild leads",
+                            "attachments": [
+                                {
+                                    "attachmenttype": "link",
+                                    "link": "https://www.youtube.com/watch?v=MyNjiOQHcXY"
+                                }
+                            ]
+                        },{
+                            "name": "iWushock: Defensive modifiers and amplifiers",
+                            "description": "Overview of the defensive modifiers and amplifiers",
+                            "attachments": [
+                                {
+                                    "attachmenttype": "link",
+                                    "link": "https://www.youtube.com/watch?v=N0pryna31Fg"
+                                }
+                            ]
+                        },{
+                            "name": "iWushock: DPS modifiers and amplifiers",
+                            "description": "Overview of the offensive modifiers and amplifiers",
+                            "attachments": [
+                                {
+                                    "attachmenttype": "link",
+                                    "link": "https://www.youtube.com/watch?v=w9hzuidNduU"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Jermoshua",
                             "description": "Jerm's Guide to Bit Heroes",
                             "attachments": [
                                 {
                                     "attachmenttype": "link",
-                                    "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub",
-                                    "linktype": "direct"
+                                    "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
                                 }
                             ]
                         }
@@ -105,8 +141,7 @@
                             "attachments": [
                                 {
                                     "attachmenttype": "link",
-                                    "link": "https://www.youtube.com/watch?v=jsVGkAngeRU",
-                                    "linktype": "direct"
+                                    "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
                                 }
                             ]
                         },
@@ -120,8 +155,7 @@
                                 },
                                 {
                                     "attachmenttype": "link",
-                                    "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4",
-                                    "linktype": "direct"
+                                    "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4"
                                 }
                             ]
                         },
@@ -268,8 +302,7 @@
                             "attachments": [
                                 {
                                     "attachmenttype": "link",
-                                    "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk",
-                                    "linktype": "direct"
+                                    "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk"
                                 }
                             ]
                         },

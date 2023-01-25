@@ -20,14 +20,6 @@ const (
 	Link     SourceType = "link"
 )
 
-type LinkType string
-
-const (
-	LinkTypeDirect LinkType = "direct"
-	LinkTypePhoto  LinkType = "photo"
-	LinkTypeVideo  LinkType = "video"
-)
-
 var FilesLocation = path.Join(".", "data")
 
 type JSONCommand struct {
@@ -48,9 +40,7 @@ type JSONCommandOptionAttachment struct {
 	FileName       string     `json:"filename"`
 	AttachmentType SourceType `json:"attachmenttype"`
 	ContentType    string     `json:"contenttype"`
-
-	Link     string   `json:"link"`
-	LinkType LinkType `json:"linktype"`
+	Link           string     `json:"link"`
 }
 
 func NewJSONCommand() *JSONCommand { return &JSONCommand{} }
@@ -160,30 +150,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 							})
 
 						case Link:
-							embed := &discordgo.MessageEmbed{Title: guide.Description}
-
-							switch attachment.LinkType {
-							case LinkTypeVideo:
-								embed.Video = &discordgo.MessageEmbedVideo{
-									URL:    attachment.Link,
-									Width:  600,
-									Height: 400,
-								}
-
-							case LinkTypePhoto:
-								embed.Image = &discordgo.MessageEmbedImage{
-									URL: attachment.Link,
-								}
-
-							default:
-								embed.Description = fmt.Sprintf(
-									"[%s](%s)",
-									attachment.Link,
-									attachment.Link,
-								)
-							}
-
-							embeds = append(embeds, embed)
+							content = guide.Description + "\n" + attachment.Link
 
 						case File:
 							content = guide.Description
