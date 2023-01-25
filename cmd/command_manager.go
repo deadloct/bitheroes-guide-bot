@@ -24,6 +24,9 @@ func NewCommandManager(s *discordgo.Session) *CommandManager {
 	cm := &CommandManager{commands: make(map[string]Command), session: s}
 	cm.loadFromJSON()
 
+	credits := NewCredits()
+	cm.commands[credits.GetName()] = credits
+
 	// Add help last so it gets all the other commands
 	h := NewHelp(cm.commands)
 	cm.commands[h.GetName()] = h
