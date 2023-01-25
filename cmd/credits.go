@@ -39,7 +39,7 @@ _Bot Coding_: BillyIdol ([Source Code on GitHub](https://github.com/deadloct/bit
 
 _Data Aggregation_: BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13
 
-_Guide Authors_: a_poor_ninja, Adhesive81, Antomanz, Ballbreaker, BillyIdol, Chocomint, ChubbyDaemon, Crow, CyberMuffin, DarkHand6, Dispel1, Ember, Fyra, Goku, Hæl (aka Hael in this bot), Huen11, Jermoshua, JoeBu, josiah_4, kruste, McSploosh, PAINisGOD93, ShawnBond, Sizz, Smolder, Techno, Tolton, VesaN, Youreprettycute, and ZombieSlayer13
+_Guide Authors_: a_poor_ninja, Adhesive81, Antomanz, Ballbreaker, BillyIdol, Chocomint, ChubbyDaemon, Crow, CyberMuffin, DarkHand6, Dispel1, Ember, Fyra, Goku, Gylgymesh, Hæl (aka Hael in this bot), Huen11, Jermoshua, JoeBu, josiah_4, kruste, McSploosh, PAINisGOD93, ShawnBond, Sizz, Smolder, Techno, Tolton, VesaN, Youreprettycute, and ZombieSlayer13
 
 Thanks to anybody else that helped but was not mentioned because I forgot!
 `

@@ -20,6 +20,16 @@
                             ]
                         },
                         {
+                            "name": "Gylgymesh",
+                            "description": "Familiars > Pet > Brain > Accessory > Mount > Gear",
+                            "attachments": [
+                                {
+                                    "filename": "early-game-gylgymesh.md",
+                                    "attachmenttype": "markdown"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Jermoshua",
                             "description": "Jerm's Guide to Bit Heroes",
                             "attachments": [
@@ -183,6 +193,17 @@
                                     "filename": "d4-t17-goku.jpg",
                                     "attachmenttype": "file",
                                     "contenttype": "image/jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Gylgymesh",
+                            "description": "Gylgymesh's Clover Guide",
+                            "attachments": [
+                                {
+                                    "filename": "d4-t17-gylgymesh.png",
+                                    "attachmenttype": "file",
+                                    "contenttype": "image/png"
                                 }
                             ]
                         },
