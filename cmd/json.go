@@ -23,15 +23,14 @@ const (
 var FilesLocation = path.Join(".", "data")
 
 type JSONCommand struct {
-	Name        string                          `json:"name"`
-	Description string                          `json:"description"`
-	Subcommands []*JSONCommand                  `json:"subcommands"` // will have either subcommands or options
-	Options     map[string][]*JSONCommandOption `json:"options"`
+	Name        string               `json:"name"`
+	Description string               `json:"description"`
+	Subcommands []*JSONCommand       `json:"categories"` // will have either subcommands or options
+	Guides      []*JSONCommandOption `json:"guides"`
 }
 
 type JSONCommandOption struct {
 	Name        string                         `json:"name"`
-	Description string                         `json:"description"`
 	Attachments []*JSONCommandOptionAttachment `json:"attachments"`
 }
 
@@ -55,7 +54,6 @@ func (c *JSONCommand) GetCommand() *discordgo.ApplicationCommand {
 		Description: c.Description,
 	}
 
-	// The top level will never have options
 	if len(c.Subcommands) > 0 {
 		cmd.Options = make([]*discordgo.ApplicationCommandOption, 0, len(c.Subcommands))
 		for _, sub := range c.Subcommands {
@@ -83,23 +81,21 @@ func (c *JSONCommand) CreateSubCommand(sub *JSONCommand) *discordgo.ApplicationC
 	} else {
 		cmdopt.Type = discordgo.ApplicationCommandOptionSubCommand
 
-		for key, options := range sub.Options {
-			subopt := &discordgo.ApplicationCommandOption{
-				Type:        discordgo.ApplicationCommandOptionString,
-				Name:        key,
-				Description: key,
-				Required:    true,
-			}
-
-			for _, opt := range options {
-				subopt.Choices = append(subopt.Choices, &discordgo.ApplicationCommandOptionChoice{
-					Name:  opt.Name,
-					Value: opt.Name,
-				})
-			}
-
-			cmdopt.Options = append(cmdopt.Options, subopt)
+		guideopt := &discordgo.ApplicationCommandOption{
+			Type:        discordgo.ApplicationCommandOptionString,
+			Name:        "guide",
+			Description: "Name of the guide to display",
+			Required:    true,
 		}
+
+		for _, guide := range sub.Guides {
+			guideopt.Choices = append(guideopt.Choices, &discordgo.ApplicationCommandOptionChoice{
+				Name:  guide.Name,
+				Value: guide.Name,
+			})
+		}
+
+		cmdopt.Options = append(cmdopt.Options, guideopt)
 	}
 
 	return cmdopt
@@ -122,57 +118,51 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 	}
 
 	params := c.getParams(i.ApplicationCommandData().Options)
+	guideParam := params[0]
 
-	for _, param := range params {
-		log.Debugf("with parameter: %v:%v id:%v", param.Name, param.Value, i.ID)
+	if guideParam.Name != "guide" {
+		return fmt.Errorf("unsupported command %s", params[0].Name)
+	}
 
-		// super hack to just get this working, need to flesh this out to be more generic
-		switch param.Name {
-		case "authors":
-			guides, ok := node.Options[param.Name]
-			if !ok {
-				return fmt.Errorf("there are no authors for %s", strings.Join(options, " "))
-			}
+	log.Debugf("with parameter: %v:%v id:%v", guideParam.Name, guideParam.Value, i.ID)
 
-			for _, guide := range guides {
-				if guide.Name == param.StringValue() {
-					for _, attachment := range guide.Attachments {
-						switch attachment.AttachmentType {
-						case Markdown:
-							v, err := ioutil.ReadFile(path.Join(FilesLocation, "responses", attachment.FileName))
-							if err != nil {
-								return fmt.Errorf("unable to open file %s: %w", attachment.FileName, err)
-							}
-
-							embeds = append(embeds, &discordgo.MessageEmbed{
-								Title:       guide.Description,
-								Description: string(v[:]),
-							})
-
-						case Link:
-							content = guide.Description + "\n" + attachment.Link
-
-						case File:
-							content = guide.Description
-							filePath := path.Join(FilesLocation, "responses", attachment.FileName)
-							log.Debugf("loading %s", filePath)
-							fi, err := os.Open(filePath)
-							if err != nil {
-								return fmt.Errorf("could not open file %s: %v", filePath, err)
-							}
-							defer fi.Close()
-
-							dfi := &discordgo.File{
-								Name:        attachment.FileName,
-								ContentType: attachment.ContentType,
-								Reader:      fi,
-							}
-							files = append(files, dfi)
-
-						default:
-							return errors.New("unsupported file type for the response of this command")
-						}
+	for _, guide := range node.Guides {
+		if guide.Name == guideParam.StringValue() {
+			for _, attachment := range guide.Attachments {
+				switch attachment.AttachmentType {
+				case Markdown:
+					v, err := ioutil.ReadFile(path.Join(FilesLocation, "responses", attachment.FileName))
+					if err != nil {
+						return fmt.Errorf("unable to open file %s: %w", attachment.FileName, err)
 					}
+
+					embeds = append(embeds, &discordgo.MessageEmbed{
+						Title:       guide.Name,
+						Description: string(v[:]),
+					})
+
+				case Link:
+					content = guide.Name + "\n" + attachment.Link
+
+				case File:
+					content = guide.Name
+					filePath := path.Join(FilesLocation, "responses", attachment.FileName)
+					log.Debugf("loading %s", filePath)
+					fi, err := os.Open(filePath)
+					if err != nil {
+						return fmt.Errorf("could not open file %s: %v", filePath, err)
+					}
+					defer fi.Close()
+
+					dfi := &discordgo.File{
+						Name:        attachment.FileName,
+						ContentType: attachment.ContentType,
+						Reader:      fi,
+					}
+					files = append(files, dfi)
+
+				default:
+					return errors.New("unsupported file type for the response of this command")
 				}
 			}
 		}
@@ -249,17 +239,8 @@ func (c *JSONCommand) help(depth int) string {
 		return text
 	}
 
-	if len(c.Options) > 0 {
-		var params []string
-		for key, _ := range c.Options {
-			params = append(params, fmt.Sprintf("`%s`", key))
-			// Disable option values for now since they are verbose and unnecessary
-			// 	for _, opt := range opts {
-			// 		text += fmt.Sprintf("%s`%s`: %s\n", strings.Repeat("\t", depth+2), opt.Name, opt.Description)
-			// 	}
-		}
-
-		text += fmt.Sprintf("%sParams: %v\n", strings.Repeat("\t", depth+1), strings.Join(params, " "))
+	if len(c.Guides) > 0 {
+		text += fmt.Sprintf("%sParams: `guide`\n", strings.Repeat("\t", depth+1))
 	}
 
 	return text

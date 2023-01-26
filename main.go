@@ -19,7 +19,7 @@ func main() {
 		log.Panic(err)
 	}
 
-	// Listen for server (guild) messages only
+	// Listen for server messages only
 	session.Identify.Intents = discordgo.IntentsGuildMessages
 	commandManager := cmd.NewCommandManager(session)
 	if err := commandManager.Start(); err != nil {
