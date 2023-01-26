@@ -5,18 +5,6 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-type GuildNameRetriever interface {
-	GetGuildName(id string) string
-}
-
-var nameRetriever GuildNameRetriever
-
-func Start(index GuildNameRetriever) {
-	nameRetriever = index
-}
-
-func Stop() {}
-
 func Debug(i *discordgo.Interaction, args ...interface{}) {
 	log.WithFields(getFields(i)).Debug(args...)
 }
@@ -69,7 +57,6 @@ func getFields(i *discordgo.Interaction) log.Fields {
 	return log.Fields{
 		"channel_id":   i.ChannelID,
 		"guild_id":     i.GuildID,
-		"guild_name":   nameRetriever.GetGuildName(i.GuildID),
 		"guild_locale": i.GuildLocale,
 		"request_id":   i.ID,
 	}

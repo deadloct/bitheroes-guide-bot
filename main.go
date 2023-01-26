@@ -7,8 +7,6 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/deadloct/bitheroes-guide-bot/cmd"
-	"github.com/deadloct/bitheroes-guide-bot/lib"
-	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -22,13 +20,6 @@ func main() {
 	if err != nil {
 		log.Panic(err)
 	}
-
-	guildIndex := lib.NewGuildIndex(session)
-	guildIndex.Start()
-	defer guildIndex.Stop()
-
-	logger.Start(guildIndex)
-	defer logger.Stop()
 
 	// Listen for server messages only
 	session.Identify.Intents = discordgo.IntentsGuildMessages
