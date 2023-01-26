@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/bwmarrin/discordgo"
-	log "github.com/sirupsen/logrus"
+	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
 )
 
 const (
@@ -28,7 +28,7 @@ func (c *Credits) GetName() string {
 }
 
 func (c *Credits) Handle(sess *discordgo.Session, i *discordgo.InteractionCreate) error {
-	log.Debugf("handling request: /%s id:%v", helpName, i.ID)
+	logger.Debugf(i.Interaction, "handling request: /%s id:%v", helpName, i.ID)
 
 	content := `
 **Bot Credits**

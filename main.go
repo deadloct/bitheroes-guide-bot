@@ -7,17 +7,28 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/deadloct/bitheroes-guide-bot/cmd"
+	"github.com/deadloct/bitheroes-guide-bot/lib"
+	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
 	log "github.com/sirupsen/logrus"
 )
 
-func main() {
+func init() {
 	log.Info("verbose logs enabled")
 	log.SetLevel(log.DebugLevel)
+}
 
+func main() {
 	session, err := discordgo.New("Bot " + os.Getenv("BITHEROES_GUIDE_BOT_AUTH_TOKEN"))
 	if err != nil {
 		log.Panic(err)
 	}
+
+	guildIndex := lib.NewGuildIndex(session)
+	guildIndex.Start()
+	defer guildIndex.Stop()
+
+	logger.Start(guildIndex)
+	defer logger.Stop()
 
 	// Listen for server messages only
 	session.Identify.Intents = discordgo.IntentsGuildMessages

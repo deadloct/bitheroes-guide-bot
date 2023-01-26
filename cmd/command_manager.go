@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 
 	"github.com/bwmarrin/discordgo"
+	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -90,14 +91,16 @@ func (cm *CommandManager) commandHandler(sess *discordgo.Session, i *discordgo.I
 	})
 
 	name := i.ApplicationCommandData().Name
+	logger.Infof(i.Interaction, "handling command %v", name)
+
 	cmd, ok := cm.commands[name]
 	if !ok {
-		log.Error("unsupported command %s received", name)
+		logger.Errorf(i.Interaction, "unsupported command %s", name)
 		return
 	}
 
 	if err := cmd.Handle(sess, i); err != nil {
-		log.Error(err)
+		logger.Error(i.Interaction, err)
 		errstr := "There was an error loading that command, please try again later."
 		sess.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{
 			Content: &errstr,

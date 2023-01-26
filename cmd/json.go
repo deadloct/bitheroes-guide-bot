@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/bwmarrin/discordgo"
-	log "github.com/sirupsen/logrus"
+	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
 )
 
 type SourceType string
@@ -110,7 +110,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 	options := c.buildSubCommandList(i.ApplicationCommandData().Options)
 	options = append([]string{i.ApplicationCommandData().Name}, options...)
-	log.Debugf("handling request: %v id:%v", options, i.ID)
+	logger.Debugf(i.Interaction, "handling request: %v", options)
 
 	node := c.findSubJSONCommand(options, 0)
 	if node == nil {
@@ -124,13 +124,14 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 		return fmt.Errorf("unsupported command %s", params[0].Name)
 	}
 
-	log.Debugf("with parameter: %v:%v id:%v", guideParam.Name, guideParam.Value, i.ID)
+	logger.Debugf(i.Interaction, "with parameter %v:%v", guideParam.Name, guideParam.Value)
 
 	for _, guide := range node.Guides {
 		if guide.Name == guideParam.StringValue() {
 			for _, attachment := range guide.Attachments {
 				switch attachment.AttachmentType {
 				case Markdown:
+					logger.Debugf(i.Interaction, "posting md %s", attachment.FileName)
 					v, err := ioutil.ReadFile(path.Join(FilesLocation, "responses", attachment.FileName))
 					if err != nil {
 						return fmt.Errorf("unable to open file %s: %w", attachment.FileName, err)
@@ -142,12 +143,13 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 					})
 
 				case Link:
+					logger.Debugf(i.Interaction, "posting link %s", attachment.Link)
 					content = guide.Name + "\n" + attachment.Link
 
 				case File:
 					content = guide.Name
 					filePath := path.Join(FilesLocation, "responses", attachment.FileName)
-					log.Debugf("loading %s", filePath)
+					logger.Debugf(i.Interaction, "loading file %s", filePath)
 					fi, err := os.Open(filePath)
 					if err != nil {
 						return fmt.Errorf("could not open file %s: %v", filePath, err)
