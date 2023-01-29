@@ -8,7 +8,7 @@
                 "description": "Strategy guides for new and intermediate players",
                 "guides": [
                     {
-                        "name": "ChubbyDaemon: Official Wiki Beginner Guide",
+                        "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -17,7 +17,7 @@
                         ]
                     },
                     {
-                        "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear",
+                        "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide",
                         "attachments": [
                             {
                                 "filename": "early-game-gylgymesh.md",
@@ -26,7 +26,7 @@
                         ]
                     },
                     {
-                        "name": "iWushock: Basics on Making a DPS Build",
+                        "name": "iWushock: Basics on Making a DPS Build YouTube Video",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -35,7 +35,7 @@
                         ]
                     },
                     {
-                        "name": "iWushock: Guild Perks | What Order Do I Pick?",
+                        "name": "iWushock: Guild Perks YouTube Video",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -44,7 +44,7 @@
                         ]
                     },
                     {
-                        "name": "iWushock: Defensive modifiers and amplifiers",
+                        "name": "iWushock: Defensive Modifiers and Amplifiers YouTube Video",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -53,7 +53,7 @@
                         ]
                     },
                     {
-                        "name": "iWushock: DPS modifiers and amplifiers",
+                        "name": "iWushock: DPS Modifiers and Amplifiers YouTube Video",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -62,7 +62,7 @@
                         ]
                     },
                     {
-                        "name": "Jermoshua: Jerm's Guide to Bit Heroes",
+                        "name": "Jermoshua: Jerm's Guide to Bit Heroes Google Doc",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -77,7 +77,7 @@
                 "description": "View community t16d4 escarium strategies",
                 "guides": [
                     {
-                        "name": "BillyIdol's Escarium Guide",
+                        "name": "BillyIdol's Text Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t16-billyidol.md",
@@ -93,7 +93,7 @@
                 "guides": [
                     
                     {
-                        "name": "a_poor_ninja's Clover Guide",
+                        "name": "a_poor_ninja's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-a_poor_ninja.jpg",
@@ -103,7 +103,16 @@
                         ]
                     },
                     {
-                        "name": "ballbreaker's Clover Guide",
+                        "name": "ArchangelMichael's YouTube Video",
+                        "attachments": [
+                            {
+                                "attachmenttype": "link",
+                                "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ballbreaker's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-ballbreaker.jpg",
@@ -113,16 +122,17 @@
                         ]
                     },
                     {
-                        "name": "ArchangelMichael's Clover Guide",
+                        "name": "BillyIdol, JoeBu, and ZombieSlayer13's Picture Guide",
                         "attachments": [
                             {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
+                                "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
+                                "attachmenttype": "file",
+                                "contenttype": "image/jpg" 
                             }
                         ]
                     },
                     {
-                        "name": "BillyIdol's Clover Guide",
+                        "name": "BillyIdol's Text Guide and Video",
                         "attachments": [
                             {
                                 "filename": "d4-t17-billyidol.md",
@@ -135,7 +145,7 @@
                         ]
                     },
                     {
-                        "name": "Chocomint's Clover Guide",
+                        "name": "Chocomint's PDF Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-chocomints_clover_guide.pdf",
@@ -145,7 +155,7 @@
                         ]
                     },
                     {
-                        "name": "Crow's Clover Guide",
+                        "name": "Crow's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-crow.jpg",
@@ -155,7 +165,7 @@
                         ]
                     },
                     {
-                        "name": "cybermuffin's Clover Guide",
+                        "name": "cybermuffin's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-cybermuffin.jpg",
@@ -165,7 +175,7 @@
                         ]
                     },
                     {
-                        "name": "DarkHand6's Clover Guide",
+                        "name": "DarkHand6's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-darkhand6.jpg",
@@ -180,7 +190,7 @@
                         ]
                     },
                     {
-                        "name": "Dispel1's Clover Guide",
+                        "name": "Dispel1's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-dispel1.jpg",
@@ -190,7 +200,7 @@
                         ]
                     },
                     {
-                        "name": "Fyra's Clover Guide",
+                        "name": "Fyra's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-fyra.jpg",
@@ -200,7 +210,7 @@
                         ]
                     },
                     {
-                        "name": "Goku's Clover Guide",
+                        "name": "Goku's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-goku.jpg",
@@ -210,7 +220,7 @@
                         ]
                     },
                     {
-                        "name": "Gylgymesh's Clover Guide",
+                        "name": "Gylgymesh's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-gylgymesh.png",
@@ -220,7 +230,7 @@
                         ]
                     },
                     {
-                        "name": "Hael's Clover Guide",
+                        "name": "Hael's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-hael.jpg",
@@ -230,7 +240,7 @@
                         ]
                     },
                     {
-                        "name": "Huen11 and ZombieSlayer13's Clover Guide",
+                        "name": "Huen11 and ZombieSlayer13's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-huen11_zombieslayer13.jpg",
@@ -240,7 +250,7 @@
                         ]
                     },
                     {
-                        "name": "Josiah_4's Clover Guide",
+                        "name": "Josiah_4's PDF Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-josiah_4.pdf",
@@ -250,7 +260,7 @@
                         ]
                     },
                     {
-                        "name": "Kruste's Clover Guide",
+                        "name": "Kruste's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-kruste.jpg",
@@ -260,7 +270,7 @@
                         ]
                     },
                     {
-                        "name": "PAINisGOD93's Clover Guide",
+                        "name": "PAINisGOD93's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-painisgod93.jpg",
@@ -270,7 +280,7 @@
                         ]
                     },
                     {
-                        "name": "PrimeDyze's Clover Guide",
+                        "name": "PrimeDyze's YouTube Video",
                         "attachments": [
                             {
                                 "attachmenttype": "link",
@@ -279,7 +289,7 @@
                         ]
                     },
                     {
-                        "name": "Smolder's Clover Guide",
+                        "name": "Smolder's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-smolder.jpg",
@@ -289,7 +299,7 @@
                         ]
                     },
                     {
-                        "name": "Techno's Clover Guide",
+                        "name": "Techno's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-techno.jpg",
@@ -299,7 +309,7 @@
                         ]
                     },
                     {
-                        "name": "Tolton's Clover Guide",
+                        "name": "Tolton's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-tolton.png",
@@ -309,7 +319,7 @@
                         ]
                     },
                     {
-                        "name": "VesaN's Clover Guide",
+                        "name": "VesaN's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-vesan.jpg",
@@ -319,7 +329,7 @@
                         ]
                     },
                     {
-                        "name": "Youreprettycute's Clover Guide",
+                        "name": "Youreprettycute's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t17-youreprettycute.jpg",
@@ -335,7 +345,7 @@
                 "description": "View community t18d4 Uzum's VIP strategies",
                 "guides": [
                     {
-                        "name": "BillyIdol's Uzum's VIP Guide",
+                        "name": "BillyIdol's Text Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t18-billyidol.md",
@@ -344,7 +354,7 @@
                         ]
                     },
                     {
-                        "name": "Ember's Uzum's VIP Guide",
+                        "name": "Ember's PDF Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t18-ember.pdf",
@@ -354,7 +364,7 @@
                         ]
                     },
                     {
-                        "name": "Goku's Uzum's VIP Guide",
+                        "name": "Goku's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t18-goku.png",
@@ -364,7 +374,7 @@
                         ]
                     },
                     {
-                        "name": "Huen11 and ZombieSlayer13's Uzum's VIP Guide",
+                        "name": "Huen11 and ZombieSlayer13's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t18-huen11_zombieslayer13.jpg",
@@ -380,7 +390,7 @@
                 "description": "View community t19d4 W3-4TY strategies",
                 "guides": [
                     {
-                        "name": "Adhesive81",
+                        "name": "Adhesive81's W3-4TY PDF Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t19-adhesive81.pdf",
@@ -390,11 +400,31 @@
                         ]
                     },
                     {
-                        "name": "BillyIdol",
+                        "name": "Antomanz's Picture Guide",
+                        "attachments": [
+                            {
+                                "filename": "d4-t19-antomanz.jpg",
+                                "attachmenttype": "file",
+                                "contenttype": "image/jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BillyIdol's Text Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t19-billyidol.md",
                                 "attachmenttype": "markdown"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fyra's PDF Guide",
+                        "attachments": [
+                            {
+                                "filename": "d4-t19-fyra.pdf",
+                                "attachmenttype": "file",
+                                "contenttype": "application/pdf"
                             }
                         ]
                     },
@@ -408,7 +438,7 @@
                         ]
                     },
                     {
-                        "name": "JoeBu and ZombieSlayer13",
+                        "name": "JoeBu, BillyIdol, and ZombieSlayer13's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t19-joebu_zombieslayer13.jpg",
@@ -418,7 +448,7 @@
                         ]
                     },
                     {
-                        "name": "McSploosh",
+                        "name": "McSploosh's Build, Team, and Summary",
                         "attachments": [
                             {
                                 "filename": "d4-t19-mcsploosh.png",
@@ -428,7 +458,7 @@
                         ]
                     },
                     {
-                        "name": "ShawnBond",
+                        "name": "ShawnBond's Picture Guide",
                         "attachments": [
                             {
                                 "filename": "d4-t19-shawnbond.jpg",
