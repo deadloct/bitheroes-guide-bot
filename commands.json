@@ -84,6 +84,21 @@
                                 "attachmenttype": "markdown"
                             }
                         ]
+                    },
+                    {
+                        "name": "Special_Delivery's Build and Team",
+                        "attachments": [
+                            {
+                                "filename": "d4-t16-special_delivery-1.png",
+                                "attachmenttype": "file",
+                                "contenttype": "image/png"
+                            },
+                            {
+                                "filename": "d4-t16-special_delivery-2.png",
+                                "attachmenttype": "file",
+                                "contenttype": "image/png"
+                            }
+                        ]
                     }
                 ]
             },
@@ -91,7 +106,6 @@
                 "name": "t17d4",
                 "description": "View community t17d4 Clover strategies",
                 "guides": [
-                    
                     {
                         "name": "a_poor_ninja's Picture Guide",
                         "attachments": [
@@ -444,6 +458,21 @@
                                 "filename": "d4-t19-mcsploosh.png",
                                 "attachmenttype": "file",
                                 "contenttype": "image/png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Orcaaa's Build, Team, and Summary",
+                        "attachments": [
+                            {
+                                "filename": "d4-t19-orcaaa-1.jpg",
+                                "attachmenttype": "file",
+                                "contenttype": "image/jpg"
+                            },
+                            {
+                                "filename": "d4-t19-orcaaa-2.jpg",
+                                "attachmenttype": "file",
+                                "contenttype": "image/jpg"
                             }
                         ]
                     },
