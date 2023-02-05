@@ -462,7 +462,7 @@
                         ]
                     },
                     {
-                        "name": "Orcaaa's Build, Team, and Summary",
+                        "name": "Orcaaa's Build and Text Summary",
                         "attachments": [
                             {
                                 "filename": "d4-t19-orcaaa-1.jpg",
@@ -470,9 +470,8 @@
                                 "contenttype": "image/jpg"
                             },
                             {
-                                "filename": "d4-t19-orcaaa-2.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
+                                "filename": "d4-t19-orcaaa-2.md",
+                                "attachmenttype": "markdown"
                             }
                         ]
                     },
