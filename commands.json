@@ -35,6 +35,15 @@
                         ]
                     },
                     {
+                        "name": "iWushock: Basics On Making a Tank Build YouTube Video",
+                        "attachments": [
+                            {
+                                "attachmenttype": "link",
+                                "link": "https://www.youtube.com/watch?v=-5iKjjvh8mc"
+                            }
+                        ]
+                    },
+                    {
                         "name": "iWushock: Guild Perks YouTube Video",
                         "attachments": [
                             {
@@ -67,6 +76,33 @@
                             {
                                 "attachmenttype": "link",
                                 "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WRLD_EATR: Reasons to Join A Guild YouTube Video",
+                        "attachments": [
+                            {
+                                "attachmenttype": "link",
+                                "link": "https://www.youtube.com/watch?v=s6odwJ5sBkM"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WRLD_EATR: General FAQ YouTube Video",
+                        "attachments": [
+                            {
+                                "attachmenttype": "link",
+                                "link": "https://www.youtube.com/watch?v=dIvTerk9hY4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WRLD_EATR: Deeper Dive Into The Smithy YouTube Video",
+                        "attachments": [
+                            {
+                                "attachmenttype": "link",
+                                "link": "https://www.youtube.com/watch?v=iW2l3cOrHhQ"
                             }
                         ]
                     }
