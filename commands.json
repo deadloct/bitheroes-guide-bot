@@ -1,554 +1,781 @@
 [
     {
-        "name": "guides",
-        "description": "View community guides",
-        "categories": [
+        "name": "guides-ancients",
+        "description": "Ancient crafting and skill information",
+        "guides": [
             {
-                "name": "early-game",
-                "description": "Strategy guides for new and intermediate players",
-                "guides": [
+                "name": "Antomanz and Gylymesh's Firium Picture Guide",
+                "attachments": [
                     {
-                        "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide",
-                        "attachments": [
-                            {
-                                "filename": "early-game-gylgymesh.md",
-                                "attachmenttype": "markdown"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "iWushock: Basics on Making a DPS Build YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=C9H3hXbrMY8"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "iWushock: Basics On Making a Tank Build YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=-5iKjjvh8mc"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "iWushock: Guild Perks YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=MyNjiOQHcXY"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "iWushock: Defensive Modifiers and Amplifiers YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=N0pryna31Fg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "iWushock: DPS Modifiers and Amplifiers YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=w9hzuidNduU"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Jermoshua: Jerm's Guide to Bit Heroes Google Doc",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "WRLD_EATR: Reasons to Join A Guild YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=s6odwJ5sBkM"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "WRLD_EATR: General FAQ YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=dIvTerk9hY4"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "WRLD_EATR: Deeper Dive Into The Smithy YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=iW2l3cOrHhQ"
-                            }
-                        ]
+                        "filename": "ancients-firium-antomanz-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             },
             {
-                "name": "t16d4",
-                "description": "View community t16d4 escarium strategies",
-                "guides": [
+                "name": "Gagf and Gylgymesh's Codex Picture Guide",
+                "attachments": [
                     {
-                        "name": "BillyIdol's Text Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t16-billyidol.md",
-                                "attachmenttype": "markdown"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Special_Delivery's Build and Team",
-                        "attachments": [
-                            {
-                                "filename": "d4-t16-special_delivery-1.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            },
-                            {
-                                "filename": "d4-t16-special_delivery-2.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
+                        "filename": "ancients-codex-gagf-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             },
             {
-                "name": "t17d4",
-                "description": "View community t17d4 Clover strategies",
-                "guides": [
+                "name": "Gylymesh's Poly and Elementarium Picture Guide",
+                "attachments": [
                     {
-                        "name": "a_poor_ninja's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-a_poor_ninja.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ArchangelMichael's YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ballbreaker's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-ballbreaker.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "BillyIdol, JoeBu, and ZombieSlayer13's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg" 
-                            }
-                        ]
-                    },
-                    {
-                        "name": "BillyIdol's Text Guide and Video",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-billyidol.md",
-                                "attachmenttype": "markdown"
-                            },
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chocomint's PDF Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-chocomints_clover_guide.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Crow's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-crow.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "cybermuffin's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-cybermuffin.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "DarkHand6's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-darkhand6.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            },
-                            {
-                                "filename": "d4-t17-darkhand6_2.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Dispel1's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-dispel1.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Fyra's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-fyra.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Goku's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-goku.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Gylgymesh's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-gylgymesh.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Hael's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-hael.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Josiah_4's PDF Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-josiah_4.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Kruste's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-kruste.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "PAINisGOD93's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-painisgod93.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "PrimeDyze's YouTube Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Smolder's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-smolder.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Techno's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-techno.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Tolton's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-tolton.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "VesaN's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-vesan.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Youreprettycute's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t17-youreprettycute.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
+                        "filename": "ancients-polyelem-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             },
             {
-                "name": "t18d4",
-                "description": "View community t18d4 Uzum's VIP strategies",
-                "guides": [
+                "name": "Gylymesh's Starweave Picture Guide",
+                "attachments": [
                     {
-                        "name": "BillyIdol's Text Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t18-billyidol.md",
-                                "attachmenttype": "markdown"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Ember's PDF Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t18-ember.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Goku's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t18-goku.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Huen11 and ZombieSlayer13's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t18-huen11_zombieslayer13.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
+                        "filename": "ancients-starweave-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             },
             {
-                "name": "t19d4",
-                "description": "View community t19d4 W3-4TY strategies",
-                "guides": [
+                "name": "TooT/Gool/Winter/Anto's Escarium MH Picture Guide",
+                "attachments": [
                     {
-                        "name": "Adhesive81's W3-4TY PDF Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-adhesive81.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
+                        "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-fusions",
+        "description": "Familiars recommendations and fusion guides",
+        "guides": [
+            {
+                "name": "DRACARIS' Drenath Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-drenath-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Igneous Ra Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-ra-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Teithyus Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-teithyus-dracaris.md",
+                        "attachmenttype": "markdown"
                     },
                     {
-                        "name": "Antomanz's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-antomanz.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
+                        "filename": "fusions-teithyus-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Thundmolf Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-thundmolf-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh's Lerky Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ItsMBSCastillo's Lerky Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-itsmbscastillo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "John_Hatten2's Lerky Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-john_hatten2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "N1ghtmaree's Kzulum Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-kzulum-n1ghtmaree.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Lady Sparkin Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-ladysparkin-shawnbond.md",
+                        "attachmenttype": "markdown"
                     },
                     {
-                        "name": "BillyIdol's Text Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-billyidol.md",
-                                "attachmenttype": "markdown"
-                            }
-                        ]
+                        "filename": "fusions-ladysparkin-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Lerky Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Teithyus Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-teithyus-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Thundmolf Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-thundmolf-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-general",
+        "description": "Strategy guides for new and intermediate players",
+        "guides": [
+            {
+                "name": "3riko and John_Hatten2's Shop Rotation Picture Guide and Info",
+                "attachments": [
+                    {
+                        "filename": "general-shoprotation-3riko-john_hatten2_v2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     },
                     {
-                        "name": "Fyra's PDF Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-fyra.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
+                        "filename": "general-shoprotation-3riko-john_hatten2_V3.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     },
                     {
-                        "name": "JoeBu's Flunder Video",
-                        "attachments": [
-                            {
-                                "attachmenttype": "link",
-                                "link": "https://www.youtube.com/watch?v=Y4n7pCw51vQ"
-                            }
-                        ]
+                        "filename": "general-shoprotation-3riko-john_hatten2.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide"
+                    }
+                ]
+            },
+            {
+                "name": "Eliealsamaan85 and Gavx's Gauntlet Boss Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "general-gauntlet-eliealsamaan85-gavx.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide",
+                "attachments": [
+                    {
+                        "filename": "general-gylgymesh-tips.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "iWushock: Basics on Making a DPS Build YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=C9H3hXbrMY8"
+                    }
+                ]
+            },
+            {
+                "name": "iWushock: Basics On Making a Tank Build YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=-5iKjjvh8mc"
+                    }
+                ]
+            },
+            {
+                "name": "iWushock: Guild Perks YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=MyNjiOQHcXY"
+                    }
+                ]
+            },
+            {
+                "name": "iWushock: Defensive Modifiers and Amplifiers YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=N0pryna31Fg"
+                    }
+                ]
+            },
+            {
+                "name": "iWushock: DPS Modifiers and Amplifiers YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=w9hzuidNduU"
+                    }
+                ]
+            },
+            {
+                "name": "Jermoshua: Jerm's Guide to Bit Heroes Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
+                    }
+                ]
+            },
+            {
+                "name": "MaxBrand99's Fishing Picture Guide and Info",
+                "attachments": [
+                    {
+                        "filename": "general-fishing-maxbrand99-bobbers.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     },
                     {
-                        "name": "JoeBu, BillyIdol, and ZombieSlayer13's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-joebu_zombieslayer13.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
+                        "filename": "general-fishing-maxbrand99.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR: Reasons to Join A Guild YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=s6odwJ5sBkM"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR: General FAQ YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=dIvTerk9hY4"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR: Deeper Dive Into The Smithy YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=iW2l3cOrHhQ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t16d4",
+        "description": "View community t16d4 escarium strategies",
+        "guides": [
+            {
+                "name": "BillyIdol's Text Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t16-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Build and Team",
+                "attachments": [
+                    {
+                        "filename": "d4-t16-special_delivery-1.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     },
                     {
-                        "name": "McSploosh's Build, Team, and Summary",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-mcsploosh.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
+                        "filename": "d4-t16-special_delivery-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t17d4",
+        "description": "View community t17d4 Clover strategies",
+        "guides": [
+            {
+                "name": "a_poor_ninja's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-a_poor_ninja.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ArchangelMichael's YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
+                    }
+                ]
+            },
+            {
+                "name": "ballbreaker's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-ballbreaker.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol, JoeBu, and ZombieSlayer13's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Text Guide and Video",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-billyidol.md",
+                        "attachmenttype": "markdown"
                     },
                     {
-                        "name": "Orcaaa's Build and Text Summary",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-orcaaa-1.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            },
-                            {
-                                "filename": "d4-t19-orcaaa-2.md",
-                                "attachmenttype": "markdown"
-                            }
-                        ]
+                        "attachmenttype": "link",
+                        "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4"
+                    }
+                ]
+            },
+            {
+                "name": "Chocomint's PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-chocomints_clover_guide.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Crow's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-crow.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "cybermuffin's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-cybermuffin.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "DarkHand6's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-darkhand6.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
                     },
                     {
-                        "name": "RoastyChicken's Team, Build, and Strategy",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-roastychicken.md",
-                                "attachmenttype": "markdown"
-                            },
-                            {
-                                "filename": "d4-t19-roastychicken-team.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            },
-                            {
-                                "filename": "d4-t19-roastychicken-build.png",
-                                "attachmenttype": "file",
-                                "contenttype": "image/png"
-                            }
-                        ]
+                        "filename": "d4-t17-darkhand6_2.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dispel1's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-dispel1.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-fyra.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Goku's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-goku.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Hael's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-hael.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Josiah_4's PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-josiah_4.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Kruste's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-kruste.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "PAINisGOD93's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-painisgod93.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "PrimeDyze's YouTube Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk"
+                    }
+                ]
+            },
+            {
+                "name": "Smolder's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-smolder.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Techno's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-techno.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Tolton's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-tolton.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "VesaN's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-vesan.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Youreprettycute's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t17-youreprettycute.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t18d4",
+        "description": "View community t18d4 Uzum's VIP strategies",
+        "guides": [
+            {
+                "name": "BillyIdol's Text Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t18-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Ember's PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t18-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Goku's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t18-goku.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Huen11 and ZombieSlayer13's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t18-huen11_zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t19d4",
+        "description": "View community t19d4 W3-4TY strategies",
+        "guides": [
+            {
+                "name": "Adhesive81's W3-4TY PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-adhesive81.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Antomanz's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-antomanz.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Text Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-fyra.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "JoeBu's Flunder Video",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=Y4n7pCw51vQ"
+                    }
+                ]
+            },
+            {
+                "name": "JoeBu, BillyIdol, and ZombieSlayer13's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-joebu_zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "McSploosh's Build, Team, and Summary",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-mcsploosh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Orcaaa's Build and Text Summary",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-orcaaa-1.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
                     },
                     {
-                        "name": "ShawnBond's Picture Guide",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-shawnbond.jpg",
-                                "attachmenttype": "file",
-                                "contenttype": "image/jpg"
-                            }
-                        ]
+                        "filename": "d4-t19-orcaaa-2.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "RoastyChicken's Team, Build, and Strategy",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-roastychicken.md",
+                        "attachmenttype": "markdown"
                     },
                     {
-                        "name": "Sizz",
-                        "attachments": [
-                            {
-                                "filename": "d4-t19-sizz.pdf",
-                                "attachmenttype": "file",
-                                "contenttype": "application/pdf"
-                            }
-                        ]
+                        "filename": "d4-t19-roastychicken-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t19-roastychicken-build.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-shawnbond.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sizz",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-sizz.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
                     }
                 ]
             }
