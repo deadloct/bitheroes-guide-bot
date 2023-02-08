@@ -512,6 +512,25 @@
                         ]
                     },
                     {
+                        "name": "RoastyChicken's Team, Build, and Strategy",
+                        "attachments": [
+                            {
+                                "filename": "d4-t19-roastychicken.md",
+                                "attachmenttype": "markdown"
+                            },
+                            {
+                                "filename": "d4-t19-roastychicken-team.png",
+                                "attachmenttype": "file",
+                                "contenttype": "image/png"
+                            },
+                            {
+                                "filename": "d4-t19-roastychicken-build.png",
+                                "attachmenttype": "file",
+                                "contenttype": "image/png"
+                            }
+                        ]
+                    },
+                    {
                         "name": "ShawnBond's Picture Guide",
                         "attachments": [
                             {
