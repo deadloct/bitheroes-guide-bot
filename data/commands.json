@@ -661,6 +661,16 @@
                         "contenttype": "image/jpg"
                     }
                 ]
+            },
+            {
+                "name": "JDizzle's Mostly Solo PDF Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t18-jdizzle.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
             }
         ]
     },
