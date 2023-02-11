@@ -57,7 +57,7 @@
     },
     {
         "name": "guides-fusions",
-        "description": "Familiars recommendations and fusion guides",
+        "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
                 "name": "DRACARIS' Drenath Picture Guide",
@@ -201,7 +201,7 @@
     },
     {
         "name": "guides-general",
-        "description": "Strategy guides for new and intermediate players",
+        "description": "General tips and guides",
         "guides": [
             {
                 "name": "3riko and John_Hatten2's Shop Rotation Picture Guide and Info",
@@ -315,6 +315,15 @@
                     {
                         "filename": "general-fishing-maxbrand99.md",
                         "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Damage Type List Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/1AcuIKP6djYmngj_FhlRGhJsx9Fgm300FooFYW8hNcN8/"
                     }
                 ]
             },
