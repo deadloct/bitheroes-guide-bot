@@ -807,6 +807,16 @@
                         "contenttype": "application/pdf"
                     }
                 ]
+            },
+            {
+                "name": "Toad's Picture Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-toad.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
             }
         ]
     }
