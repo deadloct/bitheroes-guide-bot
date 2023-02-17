@@ -830,6 +830,22 @@
                 ]
             },
             {
+                "name": "MrRager's Build and Text Summary",
+                "builds": ["Ancient-DPS"],
+                "fams": ["Bleeximum", "Demeter", "Kimusaba"],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-mrrager.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t19-mrrager.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
                 "name": "Orcaaa's Build and Text Summary",
                 "builds": ["Ancient-DPS"],
                 "fams": ["Flunder", "Gello"],
