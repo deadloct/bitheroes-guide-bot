@@ -33,7 +33,7 @@ type JSONCommand struct {
 
 type JSONCommandOption struct {
 	Name        string                         `json:"name"`
-	Sets        []string                       `json:"sets"`
+	Builds      []string                       `json:"builds"`
 	Familiars   []string                       `json:"fams"`
 	Attachments []*JSONCommandOptionAttachment `json:"attachments"`
 }
@@ -66,13 +66,7 @@ func (c *JSONCommand) GetCommand() *discordgo.ApplicationCommand {
 	}
 
 	for _, guide := range c.Guides {
-		name := fmt.Sprintf(
-			"%s (%s; %s)",
-			guide.Name,
-			strings.Join(guide.Sets, "|"),
-			strings.Join(guide.Familiars, "|"),
-		)
-
+		name := fmt.Sprintf("%s (%s)", guide.Name, strings.Join(guide.Builds, ", "))
 		guideopt.Choices = append(guideopt.Choices, &discordgo.ApplicationCommandOptionChoice{
 			Name:  name,
 			Value: guide.Name,
