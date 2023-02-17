@@ -1,6 +1,7 @@
 [
     {
         "name": "guides-ancients",
+        "type": "general",
         "description": "Ancient crafting and skill information",
         "guides": [
             {
@@ -57,6 +58,7 @@
     },
     {
         "name": "guides-fusions",
+        "type": "general",
         "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
@@ -201,6 +203,7 @@
     },
     {
         "name": "guides-general",
+        "type": "general",
         "description": "General tips and guides",
         "guides": [
             {
@@ -358,6 +361,7 @@
     },
     {
         "name": "guides-t16d4",
+        "type": "d4",
         "description": "View community t16d4 escarium strategies",
         "guides": [
             {
@@ -392,6 +396,7 @@
     },
     {
         "name": "guides-t17d4",
+        "type": "d4",
         "description": "View community t17d4 Clover strategies",
         "guides": [
             {
@@ -680,6 +685,7 @@
     },
     {
         "name": "guides-t18d4",
+        "type": "d4",
         "description": "View community t18d4 Uzum's VIP strategies",
         "guides": [
             {
@@ -745,6 +751,7 @@
     },
     {
         "name": "guides-t19d4",
+        "type": "d4",
         "description": "View community t19d4 W3-4TY strategies",
         "guides": [
             {
