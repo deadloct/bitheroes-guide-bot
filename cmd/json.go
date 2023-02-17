@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path"
+	"strings"
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/deadloct/bitheroes-guide-bot/lib/logger"
@@ -32,6 +33,8 @@ type JSONCommand struct {
 
 type JSONCommandOption struct {
 	Name        string                         `json:"name"`
+	Sets        []string                       `json:"sets"`
+	Familiars   []string                       `json:"fams"`
 	Attachments []*JSONCommandOptionAttachment `json:"attachments"`
 }
 
@@ -63,8 +66,15 @@ func (c *JSONCommand) GetCommand() *discordgo.ApplicationCommand {
 	}
 
 	for _, guide := range c.Guides {
+		name := fmt.Sprintf(
+			"%s (%s; %s)",
+			guide.Name,
+			strings.Join(guide.Sets, "|"),
+			strings.Join(guide.Familiars, "|"),
+		)
+
 		guideopt.Choices = append(guideopt.Choices, &discordgo.ApplicationCommandOptionChoice{
-			Name:  guide.Name,
+			Name:  name,
 			Value: guide.Name,
 		})
 	}
