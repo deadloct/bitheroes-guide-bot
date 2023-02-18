@@ -594,6 +594,17 @@
                 ]
             },
             {
+                "name": "MrRager's Text Guide",
+                "builds": ["Aeneas"],
+                "fams": ["GlarzDos", "Oladus", "Teithyus"],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-mrrager.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
                 "name": "PAINisGOD93's Pic Guide",
                 "builds": ["Torch", "Witchum"],
                 "fams": ["Blinka", "Lerky", "Teithyus"],
