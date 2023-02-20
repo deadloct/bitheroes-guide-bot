@@ -751,6 +751,18 @@
                         "contenttype": "application/pdf"
                     }
                 ]
+            },
+            {
+                "name": "Toad's Pic Guide",
+                "builds": ["Aeneas"],
+                "fams": ["Lerky", "Oladus", "Teithyus"],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-toad.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
             }
         ]
     },
