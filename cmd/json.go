@@ -66,7 +66,11 @@ func (c *JSONCommand) GetCommand() *discordgo.ApplicationCommand {
 	}
 
 	for _, guide := range c.Guides {
-		name := fmt.Sprintf("%s (%s)", guide.Name, strings.Join(guide.Builds, ", "))
+		name := guide.Name
+		if len(guide.Builds) > 0 {
+			name = fmt.Sprintf("%s (%s)", guide.Name, strings.Join(guide.Builds, ", "))
+		}
+
 		guideopt.Choices = append(guideopt.Choices, &discordgo.ApplicationCommandOptionChoice{
 			Name:  name,
 			Value: guide.Name,
