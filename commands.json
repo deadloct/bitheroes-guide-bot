@@ -223,6 +223,15 @@
                 ]
             },
             {
+                "name": "5Rupees: FAQ Megathread from Reddit",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.reddit.com/r/BitHeroes/comments/pps3pw/faq_megathread/"
+                    }
+                ]
+            },
+            {
                 "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
                 "attachments": [
                     {
@@ -362,8 +371,14 @@
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
-                "builds": ["Einar"],
-                "fams": ["Drazig", "Oladus", "Teithyus"],
+                "builds": [
+                    "Einar"
+                ],
+                "fams": [
+                    "Drazig",
+                    "Oladus",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t16-billyidol.md",
@@ -373,8 +388,15 @@
             },
             {
                 "name": "Special_Delivery's Build and Team",
-                "builds": ["Seleucus", "Silverwind"],
-                "fams": ["Blinka", "Captain Babosun", "Hebbo"],
+                "builds": [
+                    "Seleucus",
+                    "Silverwind"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Captain Babosun",
+                    "Hebbo"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t16-special_delivery-1.png",
@@ -396,8 +418,15 @@
         "guides": [
             {
                 "name": "a_poor_ninja's Pic Guide",
-                "builds": ["Fyssas", "Witchum"],
-                "fams": ["GlarzDos", "Lady Sparkin", "Lerky"],
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin",
+                    "Lerky"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-a_poor_ninja.jpg",
@@ -408,8 +437,14 @@
             },
             {
                 "name": "ArchangelMichael's Video",
-                "builds": ["Perkunas"],
-                "fams": ["GlarzDos", "Lady Sparkin", "Lerky"],
+                "builds": [
+                    "Perkunas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin",
+                    "Lerky"
+                ],
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -419,8 +454,14 @@
             },
             {
                 "name": "ballbreaker's Pic Guide",
-                "builds": ["Witchum"],
-                "fams": ["Dullag", "Ignatus Ra", "Lerky"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Dullag",
+                    "Ignatus Ra",
+                    "Lerky"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-ballbreaker.jpg",
@@ -431,8 +472,15 @@
             },
             {
                 "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
-                "builds": ["Fyssas", "Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
@@ -443,8 +491,15 @@
             },
             {
                 "name": "BillyIdol's Text Guide and Video",
-                "builds": ["Fyssas", "Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-billyidol.md",
@@ -458,8 +513,15 @@
             },
             {
                 "name": "Chocomint's PDF Guide",
-                "builds": ["Aeneas", "Thundercracker"],
-                "fams": ["GlarzDos", "Blinka", "Ulairius"],
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Blinka",
+                    "Ulairius"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-chocomints_clover_guide.pdf",
@@ -470,8 +532,15 @@
             },
             {
                 "name": "Crow's Pic Guide",
-                "builds": ["Torch", "Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Torch",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-crow.jpg",
@@ -482,8 +551,14 @@
             },
             {
                 "name": "cybermuffin's Pic Guide",
-                "builds": ["Aeneas", "Thundercracker"],
-                "fams": ["GlarzDos", "Lady Sparkin"],
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-cybermuffin.jpg",
@@ -494,8 +569,14 @@
             },
             {
                 "name": "DarkHand6's Pic Guide",
-                "builds": ["Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-darkhand6.jpg",
@@ -511,8 +592,14 @@
             },
             {
                 "name": "Dispel1's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "GlarzDos", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-dispel1.jpg",
@@ -523,8 +610,14 @@
             },
             {
                 "name": "Fyra's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-fyra.jpg",
@@ -535,8 +628,14 @@
             },
             {
                 "name": "Goku's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "GlarzDos", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-goku.jpg",
@@ -547,8 +646,15 @@
             },
             {
                 "name": "Gylgymesh's Pic Guide",
-                "builds": ["Makridi", "Thundercracker"],
-                "fams": ["GlarzDos", "Ignatus Ra", "Teithyus"],
+                "builds": [
+                    "Makridi",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Ignatus Ra",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-gylgymesh.png",
@@ -559,8 +665,14 @@
             },
             {
                 "name": "Hael's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "Drelvy", "GlarzDos"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Drelvy",
+                    "GlarzDos"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-hael.jpg",
@@ -571,8 +683,14 @@
             },
             {
                 "name": "Josiah_4's PDF Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "GlarzDos", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-josiah_4.pdf",
@@ -583,8 +701,15 @@
             },
             {
                 "name": "Kruste's Pic Guide",
-                "builds": ["Aeneas", "Thundercracker"],
-                "fams": ["Blinka", "GlarzDos", "Teithyus"],
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-kruste.jpg",
@@ -595,8 +720,14 @@
             },
             {
                 "name": "MrRager's Text Guide",
-                "builds": ["Aeneas"],
-                "fams": ["GlarzDos", "Oladus", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Oladus",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-mrrager.md",
@@ -606,8 +737,15 @@
             },
             {
                 "name": "PAINisGOD93's Pic Guide",
-                "builds": ["Torch", "Witchum"],
-                "fams": ["Blinka", "Lerky", "Teithyus"],
+                "builds": [
+                    "Torch",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-painisgod93.jpg",
@@ -618,8 +756,15 @@
             },
             {
                 "name": "PrimeDyze's Video",
-                "builds": ["Aeneas", "Thundercracker"],
-                "fams": ["Blinka", "GlarzDos", "Kimusaba"],
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Kimusaba"
+                ],
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -629,8 +774,15 @@
             },
             {
                 "name": "Smolder's Pic Guide",
-                "builds": ["Fyssas", "Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-smolder.jpg",
@@ -641,8 +793,15 @@
             },
             {
                 "name": "Techno's Pic Guide",
-                "builds": ["Aeneas", "Raiju"],
-                "fams": ["Frestir", "Oladus", "Teithyus"],
+                "builds": [
+                    "Aeneas",
+                    "Raiju"
+                ],
+                "fams": [
+                    "Frestir",
+                    "Oladus",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-techno.jpg",
@@ -653,8 +812,15 @@
             },
             {
                 "name": "Tolton's Pic Guide",
-                "builds": ["Aeneas", "Hector"],
-                "fams": ["GlarzDos", "Kimusaba", "Lady Sparkin"],
+                "builds": [
+                    "Aeneas",
+                    "Hector"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Kimusaba",
+                    "Lady Sparkin"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-tolton.png",
@@ -665,8 +831,16 @@
             },
             {
                 "name": "VesaN's Pic Guide",
-                "builds": ["Fyssas", "Torch", "Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Fyssas",
+                    "Torch",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t17-vesan.jpg",
@@ -677,7 +851,9 @@
             },
             {
                 "name": "Youreprettycute's Pic Guide",
-                "builds": ["Aeneas"],
+                "builds": [
+                    "Aeneas"
+                ],
                 "fams": [],
                 "attachments": [
                     {
@@ -695,8 +871,13 @@
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
-                "builds": ["Witchum"],
-                "fams": ["Lerky", "Teithyus"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-billyidol.md",
@@ -706,8 +887,15 @@
             },
             {
                 "name": "Ember's PDF Guide",
-                "builds": ["Aeneas", "Pompadour", "Thundercracker"],
-                "fams": ["Oladus", "Ulairius"],
+                "builds": [
+                    "Aeneas",
+                    "Pompadour",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Ulairius"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-ember.pdf",
@@ -718,8 +906,14 @@
             },
             {
                 "name": "Goku's Pic Guide",
-                "builds": ["Witchum"],
-                "fams": ["Drazig", "Lerky", "Teithyus"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Drazig",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-goku.png",
@@ -730,8 +924,14 @@
             },
             {
                 "name": "Huen11 and ZombieSlayer13's Pic Guide",
-                "builds": ["Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-huen11_zombieslayer13.jpg",
@@ -742,8 +942,13 @@
             },
             {
                 "name": "JDizzle's Mostly Solo PDF Guide",
-                "builds": ["Witchum"],
-                "fams": ["Flunder", "Ulairius"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Ulairius"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-jdizzle.pdf",
@@ -754,8 +959,14 @@
             },
             {
                 "name": "Toad's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Lerky", "Oladus", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Lerky",
+                    "Oladus",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t18-toad.png",
@@ -772,8 +983,14 @@
         "guides": [
             {
                 "name": "Adhesive81's W3-4TY PDF Guide",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Bleeximum", "Flunder", "Lady Sparkin"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Flunder",
+                    "Lady Sparkin"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-adhesive81.pdf",
@@ -784,8 +1001,13 @@
             },
             {
                 "name": "Antomanz's Pic Guide",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Teithyus", "Thundmolf"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Teithyus",
+                    "Thundmolf"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-antomanz.jpg",
@@ -796,8 +1018,14 @@
             },
             {
                 "name": "BillyIdol's Text Guide",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Kimusaba", "Lady Sparkin", "Teithyus"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lady Sparkin",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-billyidol.md",
@@ -807,8 +1035,14 @@
             },
             {
                 "name": "Fyra's PDF Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "Gello", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Gello",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-fyra.pdf",
@@ -819,8 +1053,13 @@
             },
             {
                 "name": "JoeBu's Flunder Video",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Flunder", "Gello"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Gello"
+                ],
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -830,8 +1069,14 @@
             },
             {
                 "name": "JoeBu, BillyIdol, and ZombieSlayer13's Pic Guide",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Bleeximum", "Gello", "Lady Sparkin"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Lady Sparkin"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-joebu_zombieslayer13.jpg",
@@ -842,8 +1087,13 @@
             },
             {
                 "name": "McSploosh's Build, Team, and Summary",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Oladus", "Teithyus"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-mcsploosh.png",
@@ -854,8 +1104,14 @@
             },
             {
                 "name": "MrRager's Build and Text Summary",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Bleeximum", "Demeter", "Kimusaba"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Demeter",
+                    "Kimusaba"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-mrrager.png",
@@ -870,8 +1126,13 @@
             },
             {
                 "name": "Orcaaa's Build and Text Summary",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Flunder", "Gello"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Gello"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-orcaaa-1.jpg",
@@ -886,8 +1147,14 @@
             },
             {
                 "name": "RoastyChicken's Team, Build, and Strategy",
-                "builds": ["Ancient-DPS"],
-                "fams": ["Bleeximum", "Ignatus Ra", "Teithyus"],
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Ignatus Ra",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-roastychicken.md",
@@ -907,8 +1174,14 @@
             },
             {
                 "name": "ShawnBond's Pic Guide",
-                "builds": ["Aeneas", "Ancient-DPS"],
-                "fams": ["Teithyus", "Thundmolf"],
+                "builds": [
+                    "Aeneas",
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Teithyus",
+                    "Thundmolf"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-shawnbond.jpg",
@@ -919,8 +1192,14 @@
             },
             {
                 "name": "Sizz",
-                "builds": ["Witchum"],
-                "fams": ["Lady Sparkin", "Lerky", "Teithyus"],
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-sizz.pdf",
@@ -931,8 +1210,14 @@
             },
             {
                 "name": "Toad's Pic Guide",
-                "builds": ["Aeneas"],
-                "fams": ["Blinka", "Gello", "Teithyus"],
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Gello",
+                    "Teithyus"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t19-toad.png",
