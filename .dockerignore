@@ -1,5 +1,7 @@
 .env
 .git
-.vscode
-Makefile
+.vsode
+__debug_bin
+bin
 bitheroes-guide-bot
+k8s/secret.yaml

@@ -2,14 +2,28 @@ ifneq ("$(wildcard .env)", "")
 	include .env
 endif
 
-build:
-	go build
-
-run: build
-	./bitheroes-guide-bot
+NAME := bitheroes-guide-bot
+LOCAL_PATH := bin
 
 clean:
-	rm bitheroes-guide-bot
+	rm -rf $(LOCAL_PATH)
+
+build: clean
+	go build -o $(LOCAL_PATH)/$(NAME)
+	cp -R data bin/
+
+run: build
+	$(LOCAL_PATH)
+
+ssh_build: clean
+	GOOS=linux GOARCH=amd64 go build -o $(LOCAL_PATH)/$(NAME)
+	cp -R data bin/
+	cp scripts/cheapo-supervisor.sh bin/
+
+ssh_deploy: ssh_build
+	rsync -avz bin/ $(SSH_HOST):$(SSH_DIR)
+	-ssh $(SSH_HOST) "killall $(NAME)"
+	# Bot will restart from cron job
 
 docker_build:
 	docker build -t $(IMAGE_URL) .
