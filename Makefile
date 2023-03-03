@@ -16,14 +16,12 @@ run: build
 	$(LOCAL_PATH)
 
 ssh_build: clean
-	GOOS=linux GOARCH=amd64 go build -o $(LOCAL_PATH)/$(NAME)
+	GOOS=linux GOARCH=arm GOARM=5 go build -o $(LOCAL_PATH)/$(NAME)
 	cp -R data bin/
-	cp scripts/cheapo-supervisor.sh bin/
 
 ssh_deploy: ssh_build
 	rsync -avz bin/ $(SSH_HOST):$(SSH_DIR)
 	-ssh $(SSH_HOST) "killall $(NAME)"
-	# Bot will restart from cron job
 
 docker_build:
 	docker build -t $(IMAGE_URL) .
