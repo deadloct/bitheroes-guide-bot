@@ -453,24 +453,6 @@
                 ]
             },
             {
-                "name": "ballbreaker's Pic Guide",
-                "builds": [
-                    "Witchum"
-                ],
-                "fams": [
-                    "Dullag",
-                    "Ignatus Ra",
-                    "Lerky"
-                ],
-                "attachments": [
-                    {
-                        "filename": "d4-t17-ballbreaker.jpg",
-                        "attachmenttype": "file",
-                        "contenttype": "image/jpg"
-                    }
-                ]
-            },
-            {
                 "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
                 "builds": [
                     "Fyssas",
@@ -609,7 +591,7 @@
                 ]
             },
             {
-                "name": "Fyra's Pic Guide",
+                "name": "Fyra's Aeneas Pic Guide",
                 "builds": [
                     "Aeneas"
                 ],
@@ -623,6 +605,27 @@
                         "filename": "d4-t17-fyra.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's RW/SW Pic Guide",
+                "builds": [
+                    "Road Warrior",
+                    "Silverwind"
+                ],
+                "fams": [
+                    "Shrampz"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-fyra-rwsw.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-fyra-rwsw.md",
+                        "attachmenttype": "markdown"
                     }
                 ]
             },
