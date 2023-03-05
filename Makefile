@@ -16,7 +16,7 @@ run: build
 	$(LOCAL_PATH)
 
 ssh_build: clean
-	GOOS=linux GOARCH=arm GOARM=5 go build -o $(LOCAL_PATH)/$(NAME)
+	GOOS=linux GOARCH=arm64 GOARM=5 go build -o $(LOCAL_PATH)/$(NAME)
 	cp -R data bin/
 
 ssh_deploy: ssh_build
