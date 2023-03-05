@@ -99,7 +99,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 	for _, guide := range c.Guides {
 		if guide.Name == guideParam.StringValue() {
-			for _, attachment := range guide.Attachments {
+			for aNum, attachment := range guide.Attachments {
 				switch attachment.AttachmentType {
 				case Markdown:
 					logger.Debugf(i.Interaction, "posting md %s", attachment.FileName)
@@ -108,14 +108,19 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 						return fmt.Errorf("unable to open file %s: %w", attachment.FileName, err)
 					}
 
-					embeds = append(embeds, &discordgo.MessageEmbed{
-						Title:       guide.Name,
-						Description: string(v[:]),
-					})
+					embed := &discordgo.MessageEmbed{Description: string(v[:])}
+					if aNum == 0 {
+						embed.Title = guide.Name
+					}
+
+					embeds = append(embeds, embed)
 
 				case Link:
 					logger.Debugf(i.Interaction, "posting link %s", attachment.Link)
-					content = guide.Name + "\n" + attachment.Link
+					content = attachment.Link
+					if aNum == 0 {
+						content = guide.Name + "\n" + content
+					}
 
 				case File:
 					content = guide.Name
