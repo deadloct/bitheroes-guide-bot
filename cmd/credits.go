@@ -39,7 +39,7 @@ _Bot Coding_: BillyIdol ([Source Code on GitHub](https://github.com/deadloct/bit
 
 _Data Aggregation_: BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13
 
-_Guide Authors_: 3riko, 5Rupees, a_poor_ninja, Adhesive81, Antomanz, Ballbreaker, BillyIdol, Chocomint, ChubbyDaemon, Colb, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Eliealsamaan85, Ember, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael in this bot), Huen11, ItsMBSCastillo, iWushock, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, MaxBrand99, McSploosh, MrRager, N1ghtmaree, Orcaaa, PAINisGOD93, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Tarnym, Techno, Toad, Tolton, TooT, VesaN, Winter, WRLD_EATR, Youreprettycute, and ZombieSlayer13
+_Guide Authors_: 3riko, 5Rupees, a_poor_ninja, Adhesive81, Antomanz, Ballbreaker, BillyIdol, Bisamratte, Chocomint, ChubbyDaemon, Colb, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Eliealsamaan85, Ember, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael in this bot), Huen11, ItsMBSCastillo, iWushock, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, MaxBrand99, McSploosh, MrRager, N1ghtmaree, Orcaaa, PAINisGOD93, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Tarnym, Techno, Toad, Tolton, TooT, VesaN, Winter, WRLD_EATR, Youreprettycute, and ZombieSlayer13
 
 Thanks to anybody else that helped but was not mentioned because I forgot!
 `

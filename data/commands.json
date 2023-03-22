@@ -907,6 +907,24 @@
                 ]
             },
             {
+                "name": "Bisamratte's Picture Guide",
+                "builds": [
+                    "Makridi"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Teithyus",
+                    "Ukalis"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-bisamratte.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    } 
+                ]
+            },
+            {
                 "name": "Ember's PDF Guide",
                 "builds": [
                     "Aeneas",
