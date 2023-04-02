@@ -1073,6 +1073,24 @@
                 ]
             },
             {
+                "name": "Ember's PDF Guide",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Lady Sparkin",
+                    "Renacuaj"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
                 "name": "Fyra's PDF Guide",
                 "builds": [
                     "Aeneas"
