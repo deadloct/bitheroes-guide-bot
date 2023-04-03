@@ -60,6 +60,15 @@
         "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
+                "name": "Chuck's Tier 20 Fusion Guide Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1WvSyVlfUnWQF5eTwUd16g1D2fp4UORoOvBK0WvoeW-4/edit?usp=sharing"
+                    }
+                ]
+            },
+            {
                 "name": "DRACARIS' Drenath Pic Guide",
                 "attachments": [
                     {
