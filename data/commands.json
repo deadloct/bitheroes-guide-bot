@@ -1082,6 +1082,24 @@
                 ]
             },
             {
+                "name": "Commander's Pic Guide",
+                "builds": [
+                    "Ancient-DPS",
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Astrogobby",
+                    "Gello"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-commander.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Ember's PDF Guide",
                 "builds": [
                     "Skyent"
