@@ -250,6 +250,15 @@
                 ]
             },
             {
+                "name": "Chuck's Calculators: IF, XP, Turn Rate, Luck, etc.",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1e70LLlDEM_iaMOjiHFJBfeJAPv02tr846u-U3DGOCho/edit#gid=1512735192"
+                    }
+                ]
+            },
+            {
                 "name": "Eliealsamaan85 and Gavx's Gauntlet Boss Pic Guide",
                 "attachments": [
                     {
@@ -333,6 +342,15 @@
                     {
                         "filename": "general-fishing-maxbrand99.md",
                         "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Augment Info Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://tinyurl.com/BH-Augment-Info"
                     }
                 ]
             },
