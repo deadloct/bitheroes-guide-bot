@@ -19,7 +19,7 @@ build_arm: clean
 	GOOS=linux GOARCH=arm64 GOARM=5 go build -o $(LOCAL_PATH)/$(NAME)
 	cp -R data bin/
 
-deploy_arm: ssh_build
+deploy_arm: build_arm
 	rsync -avz bin/ $(SSH_HOST):$(SSH_DIR)
 	-ssh $(SSH_HOST) "killall $(NAME)"
 
