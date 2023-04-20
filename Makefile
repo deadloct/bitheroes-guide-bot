@@ -15,11 +15,19 @@ build: clean
 run: build
 	$(LOCAL_PATH)
 
-ssh_build: clean
+build_arm: clean
 	GOOS=linux GOARCH=arm64 GOARM=5 go build -o $(LOCAL_PATH)/$(NAME)
 	cp -R data bin/
 
-ssh_deploy: ssh_build
+deploy_arm: ssh_build
+	rsync -avz bin/ $(SSH_HOST):$(SSH_DIR)
+	-ssh $(SSH_HOST) "killall $(NAME)"
+
+build_amd64: clean
+	GOOS=linux GOARCH=amd64 go build -o $(LOCAL_PATH)/$(NAME)
+	cp -R data bin/
+
+deploy_amd64: build_amd64
 	rsync -avz bin/ $(SSH_HOST):$(SSH_DIR)
 	-ssh $(SSH_HOST) "killall $(NAME)"
 
