@@ -934,7 +934,7 @@
                 ]
             },
             {
-                "name": "Bisamratte's Picture Guide",
+                "name": "Bisamratte's Pic Guide",
                 "builds": [
                     "Makridi"
                 ],
@@ -948,7 +948,7 @@
                         "filename": "d4-t18-bisamratte.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
-                    } 
+                    }
                 ]
             },
             {
@@ -1325,6 +1325,28 @@
                         "filename": "d4-t19-toad.png",
                         "attachmenttype": "file",
                         "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t20d4",
+        "description": "View community t20d4 Sacramentum strategies",
+        "guides": [
+            {
+                "name": "RoastyChicken's Pic Guide (First Clear!)",
+                "builds": [
+                    "Ancient-DPS"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-roastychicken.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
                     }
                 ]
             }
