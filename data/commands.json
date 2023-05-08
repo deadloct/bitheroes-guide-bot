@@ -1349,6 +1349,22 @@
                         "contenttype": "image/jpg"
                     }
                 ]
+            },
+            {
+                "name": "ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-zombieslayer.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
             }
         ]
     }
