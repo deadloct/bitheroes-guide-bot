@@ -521,7 +521,7 @@
                 ]
             },
             {
-                "name": "Chocomint's PDF Guide",
+                "name": "Melody (Choco)'s PDF Guide",
                 "builds": [
                     "Aeneas",
                     "Thundercracker"
@@ -1334,6 +1334,36 @@
         "name": "guides-t20d4",
         "description": "View community t20d4 Sacramentum strategies",
         "guides": [
+            {
+                "name": "Ember's PDF Guide",
+                "builds": ["Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Melody (Choco)'s Text Guide",
+                "builds": ["Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-melody.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
             {
                 "name": "RoastyChicken's Pic Guide (First Clear!)",
                 "builds": [
