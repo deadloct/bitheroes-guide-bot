@@ -60,6 +60,16 @@
         "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
+                "name": "3riko's GlarzDos Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-glarz-3riko.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Chuck's Tier 20 Fusion Guide Google Doc",
                 "attachments": [
                     {
