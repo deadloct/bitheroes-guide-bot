@@ -143,6 +143,21 @@
                 ]
             },
             {
+                "name": "ItsMBSCastillo's Ra Pic Guides",
+                "attachments": [
+                    {
+                        "filename": "fusions-ra-itsmbscastillo.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "fusions-ra-itsmbscastillo-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "ItsMBSCastillo's Teithyus Pic Guide",
                 "attachments": [
                     {
@@ -338,6 +353,30 @@
                     {
                         "attachmenttype": "link",
                         "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
+                    }
+                ]
+            },
+            {
+                "name": "Maps: Fishing Island and Seasonal Towns",
+                "attachments": [
+                    {
+                        "filename": "general-map-fishing-island.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-map-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },{
+                        "filename": "general-map-fall-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-map-snow-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             },
