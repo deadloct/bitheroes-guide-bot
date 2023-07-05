@@ -442,6 +442,38 @@
         ]
     },
     {
+
+        "name": "guides-t9d4",
+        "description": "View community t9d4 starweave strategies",
+        "guides": [
+            {
+                "name": "Lqd's Starweave Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+
+        "name": "guides-t14d4",
+        "description": "View community t14d4 evolvium strategies",
+        "guides": [
+            {
+                "name": "Lqd's Evolvium Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "guides-t16d4",
         "description": "View community t16d4 escarium strategies",
         "guides": [
