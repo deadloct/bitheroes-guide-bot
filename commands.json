@@ -1199,6 +1199,22 @@
                 ]
             },
             {
+                "name": "Dude_WTF's Text Guide",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-dudewtf.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
                 "name": "Ember's PDF Guide",
                 "builds": [
                     "Skyent"
