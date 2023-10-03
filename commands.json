@@ -1181,6 +1181,27 @@
                 ]
             },
             {
+                "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                "build": ["Skramblegg", "Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-blanquiito.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=2cx3uUCtiTE&ab_channel=ItsMBSCastilloBitH%C3%A9roes"
+                    }
+                ]
+            },
+            {
                 "name": "Commander's Pic Guide",
                 "builds": [
                     "Ancient Speed Bait",
@@ -1431,6 +1452,27 @@
         "name": "guides-t20d4",
         "description": "View community t20d4 Sacramentum strategies",
         "guides": [
+            {
+                "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                "build": ["Skramblegg", "Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-blanquiito.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=3F9vJBAom6M&ab_channel=ItsMBSCastilloBitHéroes"
+                    }
+                ]
+            },
             {
                 "name": "Ember's PDF Guide",
                 "builds": ["Skyent"],
