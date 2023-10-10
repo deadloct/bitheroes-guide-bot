@@ -1445,6 +1445,26 @@
                         "contenttype": "image/png"
                     }
                 ]
+            },
+            {
+                "name": "UnseenAxes's Text Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-unseenaxes.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t19-unseenaxes.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
             }
         ]
     },
