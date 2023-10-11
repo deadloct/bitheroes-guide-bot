@@ -1524,6 +1524,22 @@
                 ]
             },
             {
+                "name": "Mochi's Pic Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Wincrash"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-mochi.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "RoastyChicken's Pic Guide (First Clear!)",
                 "builds": [
                     "Ancient Speed Bait"
@@ -1550,6 +1566,26 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-zombieslayer.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "UnseenAxes's Text Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-unseenaxes.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t20-unseenaxes.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
                     }
