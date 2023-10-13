@@ -21,6 +21,8 @@ const (
 
 	GuideOptionKey         = "guide"
 	GuideOptionDescription = "Name of the guide to display"
+
+	ObsoleteTitle = "⚠️ **OBSOLETE** ⚠️"
 )
 
 var FilesLocation = path.Join(".", "data")
@@ -36,6 +38,7 @@ type JSONCommandOption struct {
 	Builds      []string                       `json:"builds"`
 	Familiars   []string                       `json:"fams"`
 	Attachments []*JSONCommandOptionAttachment `json:"attachments"`
+	Obsolete    string                         `json:"obsolete,omitempty"`
 }
 
 // Either a file or a link
@@ -99,6 +102,16 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 	for _, guide := range c.Guides {
 		if guide.Name == guideParam.StringValue() {
+			content = guide.Name
+			if guide.Obsolete != "" {
+				// embeds = append(
+				// 	[]*discordgo.MessageEmbed{{Title: ObsoleteTitle, Description: guide.Obsolete}},
+				// 	embeds...,
+				// )
+
+				content = fmt.Sprintf("%v\n%v", ObsoleteTitle, guide.Obsolete)
+			}
+
 			for aNum, attachment := range guide.Attachments {
 				switch attachment.AttachmentType {
 				case Markdown:
@@ -117,13 +130,9 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 
 				case Link:
 					logger.Debugf(i.Interaction, "posting link %s", attachment.Link)
-					content = attachment.Link
-					if aNum == 0 {
-						content = guide.Name + "\n" + content
-					}
+					content += "\n" + attachment.Link
 
 				case File:
-					content = guide.Name
 					filePath := path.Join(FilesLocation, "responses", attachment.FileName)
 					logger.Debugf(i.Interaction, "loading file %s", filePath)
 					fi, err := os.Open(filePath)
