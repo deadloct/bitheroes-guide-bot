@@ -1595,5 +1595,28 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "guides-t21d4",
+        "description": "View community t21d4 SloMo strategies",
+        "guides": [
+            {
+                "name": "Sizz's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-sizz.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            }
+        ]
     }
 ]
