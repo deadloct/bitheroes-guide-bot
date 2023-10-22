@@ -1601,6 +1601,25 @@
         "description": "View community t21d4 SloMo strategies",
         "guides": [
             {
+                "name": "Goolmuddy's Text and Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t21-goolmuddy.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t21-goolmuddy-player.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t21-goolmuddy-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Sizz's Pic Guide",
                 "builds": [
                     "Ancient Speed Bait"
