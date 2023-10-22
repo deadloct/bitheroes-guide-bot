@@ -5,6 +5,7 @@ __Familiars__
 * Kimu x2: atk weak, team Dr, redirect, block x3
 
 __Player__
+Stats: 4K atk and 103k speed with the epic mount
 All speed everything, Beetle wings, spear, speed evo, firium freeze, jacket, transform neck, - sp regen offhand
 
 __Strat__
