@@ -1345,6 +1345,28 @@
                 ]
             },
             {
+                "name": "n1ghtmaree's text guide (Shield & Magmerang, with bad familiars)",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Brutow",
+                    "GlarzDos",
+                    "Flunder"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-n1ghtmaree.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t19-n1ghtmaree-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Orcaaa's Build and Text Summary",
                 "builds": [
                     "Ancient Speed Bait"
@@ -1602,6 +1624,13 @@
         "guides": [
             {
                 "name": "Goolmuddy's Text and Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Kzulum"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t21-goolmuddy.md",
