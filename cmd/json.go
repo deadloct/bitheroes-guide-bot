@@ -98,7 +98,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 		return fmt.Errorf("unsupported command %s", params[0].Name)
 	}
 
-	logger.Debugf(i.Interaction, "with parameter %v:%v", guideParam.Name, guideParam.Value)
+	logger.Debugf(sess, i.Interaction, "with parameter %v:%v", guideParam.Name, guideParam.Value)
 
 	for _, guide := range c.Guides {
 		if guide.Name == guideParam.StringValue() {
@@ -115,7 +115,7 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 			for aNum, attachment := range guide.Attachments {
 				switch attachment.AttachmentType {
 				case Markdown:
-					logger.Debugf(i.Interaction, "posting md %s", attachment.FileName)
+					logger.Debugf(sess, i.Interaction, "posting md %s", attachment.FileName)
 					v, err := ioutil.ReadFile(path.Join(FilesLocation, "responses", attachment.FileName))
 					if err != nil {
 						return fmt.Errorf("unable to open file %s: %w", attachment.FileName, err)
@@ -129,12 +129,12 @@ func (c *JSONCommand) Handle(sess *discordgo.Session, i *discordgo.InteractionCr
 					embeds = append(embeds, embed)
 
 				case Link:
-					logger.Debugf(i.Interaction, "posting link %s", attachment.Link)
+					logger.Debugf(sess, i.Interaction, "posting link %s", attachment.Link)
 					content += "\n" + attachment.Link
 
 				case File:
 					filePath := path.Join(FilesLocation, "responses", attachment.FileName)
-					logger.Debugf(i.Interaction, "loading file %s", filePath)
+					logger.Debugf(sess, i.Interaction, "loading file %s", filePath)
 					fi, err := os.Open(filePath)
 					if err != nil {
 						return fmt.Errorf("could not open file %s: %v", filePath, err)

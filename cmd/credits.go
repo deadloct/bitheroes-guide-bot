@@ -28,7 +28,7 @@ func (c *Credits) GetName() string {
 }
 
 func (c *Credits) Handle(sess *discordgo.Session, i *discordgo.InteractionCreate) error {
-	logger.Debugf(i.Interaction, "handling request: /%s id:%v", helpName, i.ID)
+	logger.Debugf(sess, i.Interaction, "handling request: /%s id:%v", helpName, i.ID)
 
 	content := `
 **Bot Credits**

@@ -91,16 +91,16 @@ func (cm *CommandManager) commandHandler(sess *discordgo.Session, i *discordgo.I
 	})
 
 	name := i.ApplicationCommandData().Name
-	logger.Infof(i.Interaction, "handling command %v", name)
+	logger.Infof(sess, i.Interaction, "handling command %v", name)
 
 	cmd, ok := cm.commands[name]
 	if !ok {
-		logger.Errorf(i.Interaction, "unsupported command %s", name)
+		logger.Errorf(sess, i.Interaction, "unsupported command %s", name)
 		return
 	}
 
 	if err := cmd.Handle(sess, i); err != nil {
-		logger.Error(i.Interaction, err)
+		logger.Error(sess, i.Interaction, err)
 		errstr := "There was an error loading that command, please try again later."
 		sess.InteractionResponseEdit(i.Interaction, &discordgo.WebhookEdit{
 			Content: &errstr,
