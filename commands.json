@@ -658,18 +658,17 @@
                 ]
             },
             {
-                "name": "DarkHand6's Pic Guide",
-                "builds": [
-                    "Witchum"
-                ],
+                "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
+                "builds": [],
                 "fams": [
-                    "Lady Sparkin",
-                    "Lerky",
+                    "Blinka",
+                    "GlarzDos",
+                    "Oladus",
                     "Teithyus"
                 ],
                 "attachments": [
                     {
-                        "filename": "d4-t17-darkhand6.jpg",
+                        "filename": "d4-t17-ballbreaker.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
                     },
@@ -677,22 +676,19 @@
                         "filename": "d4-t17-darkhand6_2.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
-                    }
-                ]
-            },
-            {
-                "name": "Dispel1's Pic Guide",
-                "builds": [
-                    "Aeneas"
-                ],
-                "fams": [
-                    "Blinka",
-                    "GlarzDos",
-                    "Teithyus"
-                ],
-                "attachments": [
+                    },
                     {
                         "filename": "d4-t17-dispel1.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-painisgod93.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-techno.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
                     }
@@ -847,25 +843,6 @@
                 ]
             },
             {
-                "name": "PAINisGOD93's Pic Guide",
-                "builds": [
-                    "Torch",
-                    "Witchum"
-                ],
-                "fams": [
-                    "Blinka",
-                    "Lerky",
-                    "Teithyus"
-                ],
-                "attachments": [
-                    {
-                        "filename": "d4-t17-painisgod93.jpg",
-                        "attachmenttype": "file",
-                        "contenttype": "image/jpg"
-                    }
-                ]
-            },
-            {
                 "name": "PrimeDyze's Video",
                 "builds": [
                     "Aeneas",
@@ -897,25 +874,6 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-smolder.jpg",
-                        "attachmenttype": "file",
-                        "contenttype": "image/jpg"
-                    }
-                ]
-            },
-            {
-                "name": "Techno's Pic Guide",
-                "builds": [
-                    "Aeneas",
-                    "Raiju"
-                ],
-                "fams": [
-                    "Frestir",
-                    "Oladus",
-                    "Teithyus"
-                ],
-                "attachments": [
-                    {
-                        "filename": "d4-t17-techno.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
                     }
@@ -989,6 +947,23 @@
                         "filename": "d4-t17-youreprettycute.jpg",
                         "attachmenttype": "file",
                         "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ZENICKS's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-zenicks.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
                     }
                 ]
             }
