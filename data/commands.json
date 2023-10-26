@@ -1624,6 +1624,23 @@
                 ]
             },
             {
+                "name": "ItsMBSCastillo's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-itsmbscastillo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Sizz's Pic Guide",
                 "builds": [
                     "Ancient Speed Bait"
