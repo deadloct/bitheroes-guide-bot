@@ -1598,6 +1598,28 @@
         "description": "View community t21d4 SloMo strategies",
         "guides": [
             {
+                "name": "Adhesive81 and Olivernoko's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-adhesive81-olivernoko-1.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t21-adhesive81-olivernoko-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Goolmuddy's Text and Pic Guide",
                 "builds": [
                     "Ancient Speed Bait"
