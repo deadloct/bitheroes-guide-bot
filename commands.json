@@ -1595,7 +1595,7 @@
     },
     {
         "name": "guides-t21d4",
-        "description": "View community t21d4 SloMo strategies",
+        "description": "View community t21d4 strategies",
         "guides": [
             {
                 "name": "Adhesive81 and Olivernoko's Pic Guide",
@@ -1659,6 +1659,22 @@
                         "filename": "d4-t21-itsmbscastillo.png",
                         "attachmenttype": "file",
                         "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Text Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-shawnbond.md",
+                        "attachmenttype": "markdown"
                     }
                 ]
             },
