@@ -1620,6 +1620,26 @@
                 ]
             },
             {
+                "name": "fohpo's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Kimusaba",
+                    "Kzulum",
+                    "Lerky",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-fohpo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "Goolmuddy's Text and Pic Guide",
                 "builds": [
                     "Ancient Speed Bait"
