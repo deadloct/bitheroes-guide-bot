@@ -234,11 +234,105 @@
         ]
     },
     {
+        "name": "guides-calculators",
+        "description": "Calculators for a variety of different things in Bit Heroes",
+        "guides": [
+            {
+                "name": "Chuck's Calculators: IF, XP, Turn Rate, Luck, etc.",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1e70LLlDEM_iaMOjiHFJBfeJAPv02tr846u-U3DGOCho/edit#gid=1512735192"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Calculators: IF, XP, Turn Rate, etc.",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://deadloct.com/bitheroes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-content-creators",
+        "description": "List of known unofficial and official content creators",
+        "guides": [
+            {
+                "name": "antomanz",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@antomanz"
+                    }
+                ]
+            },
+            {
+                "name": "ArcaneLD",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@ArcaneLD"
+                    }
+                ]
+            },
+            {
+                "name": "bitverse_andy",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@bitverse_andy"
+                    }
+                ]
+            },
+            {
+                "name": "Demi",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@DeMiGodkingLoL"
+                    }
+                ]
+            },
+            {
+                "name": "Neflarian",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@Neflarian"
+                    }
+                ]
+            },
+            {
+                "name": "Tdizzle",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@bee_552"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@WRLD_EATR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "guides-general",
-        "description": "General tips and guides",
+        "description": "Flag guides, beginner tips, general info, etc",
         "guides": [
             {
                 "name": "3riko and John_Hatten2's Shop Rotation Pic Guide and Info",
+                "obsolete": "**25 October 2023:** Shop rotation duration doubled, items may or may not be up-to-date.",
                 "attachments": [
                     {
                         "filename": "general-shoprotation-3riko-john_hatten2_v2.png",
@@ -266,6 +360,15 @@
                 ]
             },
             {
+                "name": "Alysias' Flag Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/1I0CyvxX-3rNLj8aOi6DbsR3LE5SsMnAs/mobilebasic"
+                    }
+                ]
+            },
+            {
                 "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
                 "attachments": [
                     {
@@ -274,15 +377,7 @@
                     }
                 ]
             },
-            {
-                "name": "Chuck's Calculators: IF, XP, Turn Rate, Luck, etc.",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://docs.google.com/spreadsheets/d/1e70LLlDEM_iaMOjiHFJBfeJAPv02tr846u-U3DGOCho/edit#gid=1512735192"
-                    }
-                ]
-            },
+            
             {
                 "name": "Eliealsamaan85 and Gavx's Gauntlet Boss Pic Guide",
                 "attachments": [
@@ -299,51 +394,6 @@
                     {
                         "filename": "general-gylgymesh-tips.md",
                         "attachmenttype": "markdown"
-                    }
-                ]
-            },
-            {
-                "name": "iWushock: Basics on Making a DPS Build Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=C9H3hXbrMY8"
-                    }
-                ]
-            },
-            {
-                "name": "iWushock: Basics On Making a Tank Build Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=-5iKjjvh8mc"
-                    }
-                ]
-            },
-            {
-                "name": "iWushock: Guild Perks Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=MyNjiOQHcXY"
-                    }
-                ]
-            },
-            {
-                "name": "iWushock: Defensive Modifiers and Amplifiers Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=N0pryna31Fg"
-                    }
-                ]
-            },
-            {
-                "name": "iWushock: DPS Modifiers and Amplifiers Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=w9hzuidNduU"
                     }
                 ]
             },
@@ -411,39 +461,12 @@
                         "link": "https://docs.google.com/document/d/1AcuIKP6djYmngj_FhlRGhJsx9Fgm300FooFYW8hNcN8/"
                     }
                 ]
-            },
-            {
-                "name": "WRLD_EATR: Reasons to Join A Guild Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=s6odwJ5sBkM"
-                    }
-                ]
-            },
-            {
-                "name": "WRLD_EATR: General FAQ Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=dIvTerk9hY4"
-                    }
-                ]
-            },
-            {
-                "name": "WRLD_EATR: Deeper Dive Into The Smithy Video",
-                "attachments": [
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://www.youtube.com/watch?v=iW2l3cOrHhQ"
-                    }
-                ]
             }
         ]
     },
     {
 
-        "name": "guides-t9d4",
+        "name": "guides-t09d4",
         "description": "View community t9d4 starweave strategies",
         "guides": [
             {

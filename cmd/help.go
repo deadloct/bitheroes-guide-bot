@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	helpName        = "help"
+	helpName        = "guides-help"
 	helpDescription = "Lists all available commands and options"
 )
 

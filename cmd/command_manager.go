@@ -36,7 +36,6 @@ func NewCommandManager(s *discordgo.Session) *CommandManager {
 }
 
 func (cm *CommandManager) Start() error {
-
 	// SlashCommands command handler
 	cm.session.AddHandler(cm.commandHandler)
 
@@ -44,6 +43,9 @@ func (cm *CommandManager) Start() error {
 	if err := cm.session.Open(); err != nil {
 		return err
 	}
+
+	// Just in case the app crashed last time without removing commands
+	cm.cleanupCommands()
 
 	// Add new commands
 	log.Debug("registering slash commands")
