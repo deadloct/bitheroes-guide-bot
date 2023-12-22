@@ -465,9 +465,28 @@
         ]
     },
     {
+        "name": "guides-t08d4",
+        "description": "View community t08d4 Harvester strategies",
+        "guides": [
+            {
+                "name": "PocketApple8104's Harvester Google Sheet Guides",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
+                    }
+                ]
+            }
+        ]
+    },
+    {
 
         "name": "guides-t09d4",
-        "description": "View community t9d4 starweave strategies",
+        "description": "View community t09d4 Starweave strategies",
         "guides": [
             {
                 "name": "Lqd's Starweave Google Sheet Guide",
@@ -477,13 +496,22 @@
                         "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
                     }
                 ]
+            },
+            {
+                "name": "PocketApple8104's Starweave Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
+                    }
+                ]
             }
         ]
     },
     {
 
         "name": "guides-t14d4",
-        "description": "View community t14d4 evolvium strategies",
+        "description": "View community t14d4 Evolvium strategies",
         "guides": [
             {
                 "name": "Lqd's Evolvium Google Sheet Guide",
@@ -493,12 +521,21 @@
                         "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
                     }
                 ]
+            },
+            {
+                "name": "PocketApple8104's Evolvium Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
+                    }
+                ]
             }
         ]
     },
     {
         "name": "guides-t16d4",
-        "description": "View community t16d4 escarium strategies",
+        "description": "View community t16d4 Escarium body strategies",
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
@@ -994,7 +1031,7 @@
     },
     {
         "name": "guides-t18d4",
-        "description": "View community t18d4 Uzum's VIP strategies",
+        "description": "View community t18d4 Escarium mainhand strategies",
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
@@ -1618,7 +1655,7 @@
     },
     {
         "name": "guides-t21d4",
-        "description": "View community t21d4 strategies",
+        "description": "View community t21d4 Evermore/Nevermore strategies",
         "guides": [
             {
                 "name": "Adhesive81 and Olivernoko's Pic Guide",
