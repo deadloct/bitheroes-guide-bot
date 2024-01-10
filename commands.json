@@ -56,7 +56,103 @@
         ]
     },
     {
-        "name": "guides-fusions",
+        "name": "guides-schematics-cards",
+        "description": "WRLD_EATR's schematic cards",
+        "guides": [
+            {
+                "name": "Bor'lan",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-borlan.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Dryonic",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-dryonic.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Jebediah",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-jebediah.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }, 
+            {
+                "name": "Oladus",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-oladus.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Shrampz",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-shrampz.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Ukalis",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-ukalis.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Úlairius",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-ulairius.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Yemic",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-yemic.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Zarlock",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-zarlock.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-schematics-other",
         "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
