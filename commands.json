@@ -630,6 +630,21 @@
         ]
     },
     {
+        "name": "guides-t15d4",
+        "description": "View community t15d4 Firium/Flamium strategies",
+        "guides": [
+            {
+                "name": "PocketApple8104's Firium Video Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=oUPGknqnRgo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "guides-t16d4",
         "description": "View community t16d4 Escarium body strategies",
         "guides": [
