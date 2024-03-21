@@ -1894,6 +1894,23 @@
                         "contenttype": "image/jpg"
                     }
                 ]
+            },
+            {
+                "name": "ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
             }
         ]
     }
