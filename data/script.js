@@ -1,5 +1,5 @@
 async function getJSON() {
-    const response = await fetch("/commands.json");
+    const response = await fetch("commands.json");
     const categories = await response.json();
     return categories;
 }
