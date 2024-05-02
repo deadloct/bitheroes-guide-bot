@@ -20,6 +20,15 @@ function builds(guide) {
     return "";
 }
 
+function linkText(link) {
+    const MAX_LENGTH = 30;
+    if (link.length < MAX_LENGTH) {
+        return link
+    }
+
+    return `${link.substring(0, MAX_LENGTH)}...`;
+}
+
 function attachment(item) {
     switch (item.attachmenttype) {
         case "file":
@@ -27,7 +36,7 @@ function attachment(item) {
         case "markdown":
             return `<li class="attachment-item"><a href="responses/${item.filename}" target="_BLANK">${item.filename} (markdown/text)</a></li>`;
         case "link":
-            return `<li class="attachment-item"><a href="${item.link}" target="_BLANK">${item.link}</a></li>`;
+            return `<li class="attachment-item"><a href="${item.link}" target="_BLANK">${linkText(item.link)}</a></li>`;
     }
 }
 
