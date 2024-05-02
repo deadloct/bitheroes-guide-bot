@@ -571,7 +571,7 @@
     },
     {
         "name": "guides-t08d4",
-        "description": "View community t08d4 Harvester strategies",
+        "description": "Community t08d4 Harvester strategies",
         "guides": [
             {
                 "name": "PocketApple8104's Harvester Google Sheet Guides",
@@ -591,7 +591,7 @@
     {
 
         "name": "guides-t09d4",
-        "description": "View community t09d4 Starweave strategies",
+        "description": "Community t09d4 Starweave strategies",
         "guides": [
             {
                 "name": "Lqd's Starweave Google Sheet Guide",
@@ -616,7 +616,7 @@
     {
 
         "name": "guides-t14d4",
-        "description": "View community t14d4 Evolvium strategies",
+        "description": "Community t14d4 Evolvium strategies",
         "guides": [
             {
                 "name": "Lqd's Evolvium Google Sheet Guide",
@@ -640,7 +640,7 @@
     },
     {
         "name": "guides-t15d4",
-        "description": "View community t15d4 Firium/Flamium strategies",
+        "description": "Community t15d4 Firium/Flamium strategies",
         "guides": [
             {
                 "name": "PocketApple8104's Firium Video Guide",
@@ -655,7 +655,7 @@
     },
     {
         "name": "guides-t16d4",
-        "description": "View community t16d4 Escarium body strategies",
+        "description": "Community t16d4 Escarium body strategies",
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
@@ -702,7 +702,7 @@
     },
     {
         "name": "guides-t17d4",
-        "description": "View community t17d4 Clover strategies",
+        "description": "Community t17d4 Clover strategies",
         "guides": [
             {
                 "name": "a_poor_ninja's Pic Guide",
@@ -774,10 +774,6 @@
                     {
                         "filename": "d4-t17-billyidol.md",
                         "attachmenttype": "markdown"
-                    },
-                    {
-                        "attachmenttype": "link",
-                        "link": "https://deadloct.com/bitheroes/video/2022-05-01-clover-dungeon-fyssas-witchum.mp4"
                     }
                 ]
             },
@@ -1151,7 +1147,7 @@
     },
     {
         "name": "guides-t18d4",
-        "description": "View community t18d4 Escarium mainhand strategies",
+        "description": "Community t18d4 Escarium mainhand strategies",
         "guides": [
             {
                 "name": "BillyIdol's Text Guide",
@@ -1281,7 +1277,7 @@
     },
     {
         "name": "guides-t19d4",
-        "description": "View community t19d4 W3-4TY strategies",
+        "description": "Community t19d4 W3-4TY strategies",
         "guides": [
             {
                 "name": "Adhesive81's W3-4TY PDF Guide",
@@ -1648,7 +1644,7 @@
     },
     {
         "name": "guides-t20d4",
-        "description": "View community t20d4 Sacramentum strategies",
+        "description": "Community t20d4 Sacramentum strategies",
         "guides": [
             {
                 "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
@@ -1775,7 +1771,7 @@
     },
     {
         "name": "guides-t21d4",
-        "description": "View community t21d4 Evermore/Nevermore strategies",
+        "description": "Community t21d4 Evermore/Nevermore strategies",
         "guides": [
             {
                 "name": "Adhesive81 and Olivernoko's Pic Guide",
