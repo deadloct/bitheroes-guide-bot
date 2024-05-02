@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root {
     font-size: 62.5%;
     font-family: "Lora", Verdana, sans-serif;
@@ -48,6 +50,30 @@ h2 {
     margin-bottom: 0rem;
 }
 
+.ext-link-risk {
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+    border: 2px solid #f5f77c;
+    color: #f5f77c;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ext-link-risk .warning {
+    flex-grow: 1;
+    text-align: center;
+}
+.ext-link-risk i {
+    padding: 0 3rem;
+    font-size: 3rem;
+    vertical-align: middle;
+    flex-grow: 0;
+}
+
 .category-description {
     text-align: center;
     margin-top: 0.5rem; 
@@ -79,18 +105,21 @@ ul, li {
     padding-left: 0;
 }
 
-     
 .guide-item {
     padding: 1rem 0;
 }
 
-.attachment-item {
-    list-style-type: circle;
-    margin-left: 1.6rem;
-}
-
 .guide-name {
     font-size: 1.8rem;
+}
+
+.att-type {
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.attachment-item i {
+    margin-right: 0.5rem;
 }
 
 @media (max-width: 1000px) {

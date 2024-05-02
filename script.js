@@ -32,11 +32,11 @@ function linkText(link) {
 function attachment(item) {
     switch (item.attachmenttype) {
         case "file":
-            return `<li class="attachment-item"><a href="responses/${item.filename}" target="_BLANK">${item.filename} (${item.contenttype})</a></li>`;
+            return `<li class="attachment-item"><i class="bi bi-card-image"></i> <a href="responses/${item.filename}" target="_BLANK">${item.filename}</a> <span class="att-type">(${item.contenttype})</span></li>`;
         case "markdown":
-            return `<li class="attachment-item"><a href="responses/${item.filename}" target="_BLANK">${item.filename} (markdown/text)</a></li>`;
+            return `<li class="attachment-item"><i class="bi bi-file-earmark-text-fill"></i> <a href="responses/${item.filename}" target="_BLANK">${item.filename}</a> <span class="att-type">(markdown/text)</span></li>`;
         case "link":
-            return `<li class="attachment-item"><a href="${item.link}" target="_BLANK">${linkText(item.link)}</a></li>`;
+            return `<li class="attachment-item"><i class="bi bi-box-arrow-up-right"></i> <a href="${item.link}" target="_BLANK">${linkText(item.link)}</a> <span class="att-type">(external link)</span></li>`;
     }
 }
 
