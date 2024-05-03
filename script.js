@@ -134,7 +134,7 @@ const BuildUI = (() => {
     }
 
     function categoryAnchor(category) {
-        return category.name;
+        return category.isSearch ? 'search-results' : category.name;
     }
 
     function renderCategory(category) {
@@ -198,9 +198,10 @@ const BuildUI = (() => {
 
     function SearchResults(target, query, guides) {
         const category = {
-            "name": `Results for ${query}`,
+            "name": `Results for &ldquo;${query}&rdquo;`,
             "description": "",
             "guides": guides,
+            "isSearch": true,
         };
 
         Render(target, renderCategory(category));
@@ -243,7 +244,7 @@ document.addEventListener("DOMContentLoaded", e => {
                 if (results.length > 0) {
                     BuildUI.SearchResults(target, query, results);
                 } else {
-                    BuildUI.SearchError(target, `No results found for term ${query}`);
+                    BuildUI.SearchError(target, `No results for &ldquo;${query}&rdquo;`);
                 }
             })
         });
