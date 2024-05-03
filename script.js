@@ -25,8 +25,8 @@ class Search {
                 const searchable = Object.values(getValues(guide));
                 const tokens = searchable
                     .join(" ")
+                    .concat(" ", cat.name, " ", cat.description)
                     .toLowerCase()
-                    .concat(cat.name, " ", cat.description)
                     .replace(/[^a-zA-Z0-9]/g, " ")
                     .replace(/\s+/g, " ")
                     .trim()
