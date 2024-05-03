@@ -80,6 +80,7 @@ h2 {
 .bubble-message {
     flex-grow: 1;
     text-align: center;
+    overflow-wrap: anywhere;
 }
 
 .bubble i {
