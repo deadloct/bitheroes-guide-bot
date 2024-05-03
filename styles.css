@@ -122,6 +122,19 @@ ul, li {
     margin-right: 0.5rem;
 }
 
+.search-wrapper {
+    margin: 2rem 0;
+}
+
+.search-wrapper input {
+    box-sizing: border-box;
+    all: unset;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 3px;
+    width: calc(100% - 2*1rem);
+}
+
 @media (max-width: 1000px) {
     .wrapper {
         width: auto;
