@@ -58,7 +58,7 @@ class Search {
     }
 
     Find(query) {
-        query = query.toLowerCase();
+        query = query.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
         if (!(query in this.index)) {
             console.log(`query ${query} not in index`);
             return [];
@@ -98,15 +98,6 @@ const BuildUI = (() => {
         return "";
     }
 
-    function linkText(link) {
-        const MAX_LENGTH = 30;
-        if (link.length < MAX_LENGTH) {
-            return link
-        }
-
-        return `${link.substring(0, MAX_LENGTH)}...`;
-    }
-
     function attachment(item) {
         switch (item.attachmenttype) {
             case "file":
@@ -114,7 +105,7 @@ const BuildUI = (() => {
             case "markdown":
                 return `<li class="attachment-item"><i class="bi bi-file-earmark-text-fill"></i> <a href="responses/${item.filename}" target="_BLANK">${item.filename}</a> <span class="att-type">(markdown/text)</span></li>`;
             case "link":
-                return `<li class="attachment-item"><i class="bi bi-box-arrow-up-right"></i> <a href="${item.link}" target="_BLANK">${linkText(item.link)}</a> <span class="att-type">(external link)</span></li>`;
+                return `<li class="attachment-item"><i class="bi bi-box-arrow-up-right"></i> <a href="${item.link}" target="_BLANK">${item.link}</a> <span class="att-type">(external link)</span></li>`;
         }
     }
 
@@ -212,7 +203,17 @@ const BuildUI = (() => {
         Render(target, renderCategory(category));
     }
 
-    return { Full, Render, SearchResults };
+    function SearchError(target, msg) {
+        Render(target, `
+            <div class="bubble search-error">
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <div class="bubble-message">${msg}</div>
+                <i class="bi bi-exclamation-circle-fill"></i>
+            </div>
+        `);
+    }
+
+    return { Full, Render, SearchError, SearchResults };
 })();
 
 document.addEventListener("DOMContentLoaded", e => {
@@ -231,7 +232,7 @@ document.addEventListener("DOMContentLoaded", e => {
                 }
 
                 if (query.length < MIN_TOKEN_LENGTH) {
-                    BuildUI.Render(target, `<p>Search term too short (less than ${MIN_TOKEN_LENGTH} characters).</p>`); 
+                    BuildUI.SearchError(target, `Search term too short (less than ${MIN_TOKEN_LENGTH} characters).`);
                     return;
                 }
 
@@ -239,7 +240,7 @@ document.addEventListener("DOMContentLoaded", e => {
                 if (results.length > 0) {
                     BuildUI.SearchResults(target, query, results);
                 } else {
-                    BuildUI.Render(target, `<p>No results found.</p>`)
+                    BuildUI.SearchError(target, `No results found for term ${query}`);
                 }
             })
         });
