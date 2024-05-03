@@ -147,11 +147,13 @@ const BuildUI = (() => {
     }
 
     function renderTableOfContents(categories) {
-        const items = categories.map(category => {
-            const name = categoryName(category);
-            const link = `#${categoryAnchor(category)}`
-            return `<li><a href="${link}">${name}</a>`;
-        }).join("");
+        const items = categories
+            .map(category => {
+                const name = categoryName(category);
+                const link = `#${categoryAnchor(category)}`
+                return `<li><a href="${link}">${name}</a>`;
+            })
+            .join("");
 
         return `
             <div class="table-of-contents">
@@ -162,6 +164,7 @@ const BuildUI = (() => {
     }
 
     function renderCategories(categories) {
+        categories.sort((a, b) => a.webname.localeCompare(b.webname));
         return [
             renderTableOfContents(categories),
             ...categories.map(renderCategory)
