@@ -50,26 +50,40 @@ h2 {
     margin-bottom: 0rem;
 }
 
-.ext-link-risk {
-    padding: 2rem 0;
+.bubble {
+    padding: 1rem 0;
+    margin: 1rem 0;
     border-radius: 0.5rem;
-    border: 2px solid #f5f77c;
-    color: #f5f77c;
     text-transform: uppercase;
     font-weight: 100;
+    letter-spacing: 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    border: 2px solid white;
+    color: white;
 }
 
-.ext-link-risk .warning {
+.bubble.ext-link-risk {
+    border: 2px solid #f5f77c;
+    color: #f5f77c;
+}
+
+.bubble.search-error {
+    border: 2px solid #ff5e7e;
+    color: #ff5e7e;
+}
+
+.bubble-message {
     flex-grow: 1;
     text-align: center;
 }
-.ext-link-risk i {
+
+.bubble i {
     padding: 0 3rem;
-    font-size: 3rem;
+    font-size: 1.8rem;
     vertical-align: middle;
     flex-grow: 0;
 }
@@ -84,6 +98,7 @@ h2 {
 a {
     text-decoration: none;
     color: #9ef0ff;
+    overflow-wrap: break-word;
 }
 
 a:active, a:hover, a:visited {

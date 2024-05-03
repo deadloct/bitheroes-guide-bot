@@ -23,14 +23,20 @@
                 <div class="search-wrapper">
                     <input type="text" placeholder="Enter search term" id="search" />
                 </div>
-                <div class="ext-link-risk">
-                    <i class="bi bi-exclamation-octagon-fill"></i>
-                    <div class="warning">Follow external links at your own risk</div>
-                    <i class="bi bi-exclamation-octagon-fill"></i>
+                <div class="bubble ext-link-risk">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
+                    <div class="bubble-message">Follow external links at your own risk</div>
+                    <i class="bi bi-exclamation-triangle-fill"></i>
                 </div>
             </header> 
             <section class="content">
-                <div class="results" id="results">Loading...</div>
+                <div class="results" id="results">
+                    <div class="bubble">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <div class="bubble-message">Loading...</div>
+                        <i class="bi bi-arrow-repeat"></i>
+                    </div>
+                </div>
             </section>
             <footer>
                 <h2>Credits</h2>
