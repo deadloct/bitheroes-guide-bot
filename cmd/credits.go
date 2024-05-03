@@ -41,7 +41,7 @@ _Bot Coding_: BillyIdol ([Source Code on GitHub](https://github.com/deadloct/bit
 
 _Initial Data Aggregation_: BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13
 
-_Honorable Mentions_: Robskino
+_Honorable Mentions_: Hip224, Robskino
 
 Thanks to anybody else that helped but was not mentioned because I forgot!
 `
