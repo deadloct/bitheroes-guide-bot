@@ -138,21 +138,43 @@ const BuildUI = (() => {
     }
 
     function categoryName(category) {
-        return category.name.replace("guides-", "").replace("-", " ").trim();
+        return category.webname || category.name.replace("guides-", "").replace("-", " ").trim();
 
+    }
+
+    function categoryAnchor(category) {
+        return category.name;
     }
 
     function renderCategory(category) {
         const items = category.guides.map(renderGuide).join("");
         return `
-            <h2>${categoryName(category)}</h2>
+            <h2 id="${categoryAnchor(category)}">${categoryName(category)}</h2>
             <div class="category-description">${category.description}</div>
             <ul>${items}</ul>
         `;
     }
 
+    function renderTableOfContents(categories) {
+        const items = categories.map(category => {
+            const name = categoryName(category);
+            const link = `#${categoryAnchor(category)}`
+            return `<li><a href="${link}">${name}</a>`;
+        }).join("");
+
+        return `
+            <div class="table-of-contents">
+                <h2>Table of Contents</h2>
+                <ol>${items}</ol>
+            </div>
+        `;
+    }
+
     function renderCategories(categories) {
-        return categories.map(renderCategory).join("");
+        return [
+            renderTableOfContents(categories),
+            ...categories.map(renderCategory)
+        ].join("");
     }
 
     function Render(target, html) {

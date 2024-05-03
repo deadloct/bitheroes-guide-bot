@@ -2,7 +2,7 @@
 
 :root {
     font-size: 62.5%;
-    font-family: "Lora", Verdana, sans-serif;
+    font-family: "Playfair Display", Times, serif;
 }
 
 html, body {
@@ -99,18 +99,45 @@ footer {
     flex-grow: 0;
 }
 
-ul, li {
+ul, ol, li {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
 }
 
-.guide-item {
-    padding: 1rem 0;
+.back-home {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
 }
 
-.guide-name {
-    font-size: 1.8rem;
+.back-home i {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+@media (hover: hover) {
+    .back-home i:hover {
+        opacity: 1;
+        transition: opacity .2s ease-in;
+        -moz-transition: opacity .2s ease-in;
+        -webkit-transition: opacity .2s ease-in;
+        -o-transition: opacity .2s ease-in;
+    }
+}
+
+.table-of-contents {
+    text-align: center;
+}
+
+.table-of-contents li {
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 0;
+}
+
+.guide-item {
+    padding: 1rem 0;
 }
 
 .att-type {

@@ -1,6 +1,7 @@
 [
     {
         "name": "guides-ancients",
+        "webname": "Ancients",
         "description": "Ancient crafting and skill information",
         "guides": [
             {
@@ -57,6 +58,7 @@
     },
     {
         "name": "guides-schematics-cards",
+        "webname": "Schematics: Cards",
         "description": "WRLD_EATR's schematic cards",
         "guides": [
             {
@@ -153,6 +155,7 @@
     },
     {
         "name": "guides-schematics-other",
+        "webname": "Schematics: Other",
         "description": "Familiar recommendations and fusion guides",
         "guides": [
             {
@@ -331,6 +334,7 @@
     },
     {
         "name": "guides-calculators",
+        "webname": "Calculators",
         "description": "Calculators for a variety of different things in Bit Heroes",
         "guides": [
             {
@@ -355,6 +359,7 @@
     },
     {
         "name": "guides-content-creators",
+        "webname": "Content Creators",
         "description": "List of known unofficial and official content creators",
         "guides": [
             {
@@ -424,6 +429,7 @@
     },
     {
         "name": "guides-general",
+        "webname": "Miscellaneous",
         "description": "Flag guides, beginner tips, general info, etc",
         "guides": [
             {
@@ -571,6 +577,7 @@
     },
     {
         "name": "guides-t08d4",
+        "webname": "T08D4",
         "description": "Community t08d4 Harvester strategies",
         "guides": [
             {
@@ -591,6 +598,7 @@
     {
 
         "name": "guides-t09d4",
+        "webname": "T09D4",
         "description": "Community t09d4 Starweave strategies",
         "guides": [
             {
@@ -616,6 +624,7 @@
     {
 
         "name": "guides-t14d4",
+        "webname": "T14D4",
         "description": "Community t14d4 Evolvium strategies",
         "guides": [
             {
@@ -640,6 +649,7 @@
     },
     {
         "name": "guides-t15d4",
+        "webname": "T15D4",
         "description": "Community t15d4 Firium/Flamium strategies",
         "guides": [
             {
@@ -655,6 +665,7 @@
     },
     {
         "name": "guides-t16d4",
+        "webname": "T16D4",
         "description": "Community t16d4 Escarium body strategies",
         "guides": [
             {
@@ -702,6 +713,7 @@
     },
     {
         "name": "guides-t17d4",
+        "webname": "T17D4",
         "description": "Community t17d4 Clover strategies",
         "guides": [
             {
@@ -1147,6 +1159,7 @@
     },
     {
         "name": "guides-t18d4",
+        "webname": "T18D4",
         "description": "Community t18d4 Escarium mainhand strategies",
         "guides": [
             {
@@ -1277,6 +1290,7 @@
     },
     {
         "name": "guides-t19d4",
+        "webname": "T19D4",
         "description": "Community t19d4 W3-4TY strategies",
         "guides": [
             {
@@ -1644,6 +1658,7 @@
     },
     {
         "name": "guides-t20d4",
+        "webname": "T20D4",
         "description": "Community t20d4 Sacramentum strategies",
         "guides": [
             {
@@ -1771,6 +1786,7 @@
     },
     {
         "name": "guides-t21d4",
+        "webname": "T21D4",
         "description": "Community t21d4 Evermore/Nevermore strategies",
         "guides": [
             {
