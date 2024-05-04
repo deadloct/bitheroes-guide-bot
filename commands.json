@@ -57,9 +57,9 @@
         ]
     },
     {
-        "name": "guides-schematics-cards",
-        "webname": "Schematics: Cards",
-        "description": "WRLD_EATR's schematic cards",
+        "name": "guides-schematics-cards-wrld_eatr",
+        "webname": "Familiar Cards by WRLD_EATR",
+        "description": "Useful cards about popular schematics",
         "guides": [
             {
                 "name": "Bor'lan",
@@ -154,9 +154,187 @@
         ]
     },
     {
+        "name": "guides-familiar-recommendations-neflarian",
+        "webname": "Familiar Recommendations by Neflarian",
+        "description": "Familiar recommendations by tier",
+        "guides": [
+            {
+                "name": "Tier 1 and 2 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=omXE2lbpmc8"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 3 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=l0XJGc5dvc4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 4 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=YQyqTB9AGnI"
+                    }
+                ]
+            },
+            {
+                "name": "Raid 2 (Tier 5) Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=fs3r_ilvG4o"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 6 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=A0LJ_ZqD7ls"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 7 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=5GImFKUHJl0"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 8 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=_2_cBM5XI2Y"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 9 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=5hTViINdfSE"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 10 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=1s2SFDMRWfM"
+                    }
+                ]
+            }, 
+            {
+                "name": "Tier 11 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=8xaUK1iKd9g"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 12 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=RsYNoenSl3I"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 13 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=8Gby7tWkfZY"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 14 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=MO_vFdB255g"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 15 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=IPTDpW6qzCU"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 16 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=rO2t_eBmP2E"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 17 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=Gh4Nzjz-Ilc"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 18 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=V1YMIHkU3a4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 19 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=dH0t7_nDvt4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 20 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=TNrP1bI6D6U"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "guides-schematics-other",
         "webname": "Schematics: Other",
-        "description": "Familiar recommendations and fusion guides",
+        "description": "Familiar fusion guides",
         "guides": [
             {
                 "name": "3riko's GlarzDos Pic Guide",
