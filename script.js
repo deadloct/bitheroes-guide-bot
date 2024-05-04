@@ -70,6 +70,10 @@ class Search {
             }
 
             const matches = queries[i] in this.index ? this.index[queries[i]] : [];
+            if (matches.length == 0) {
+                indices = new Set();
+                break;
+            }
 
             if (indices.size == 0) {
                 indices = new Set(matches);
