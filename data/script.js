@@ -26,7 +26,7 @@ class Search {
                 const searchable = Object.values(getValues(guide));
                 const tokens = searchable
                     .join(" ")
-                    .concat(" ", cat.name, " ", cat.description)
+                    .concat(" ", cat.webname, " ", cat.description)
                     .toLowerCase()
                     .replace(/[^a-zA-Z0-9]/g, " ")
                     .replace(/\s+/g, " ")
@@ -59,7 +59,7 @@ class Search {
     }
 
     Find(query) {
-        query = query.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
+        query = query.replace(/[^a-zA-Z0-9\s]/g, " ").toLowerCase();
         const queries = query.trim().split(/\s+/);
         const results = [];
         let indices = new Set();
