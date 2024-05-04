@@ -1,4 +1,5 @@
-const MIN_TOKEN_LENGTH = 3;
+const MIN_TOKEN_LENGTH = 1;
+
 class Search {
     constructor(categories) {
         this.index = {};
@@ -58,19 +59,32 @@ class Search {
     }
 
     Find(query) {
-        query = query.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-        if (!(query in this.index)) {
-            console.log(`query ${query} not in index`);
-            return [];
-        }
-
-        const indices = this.index[query];
+        query = query.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
+        const queries = query.trim().split(/\s+/);
         const results = [];
-        for (let i = 0; i < indices.length; i++) {
-            results.push(this.guides[indices[i]]);
-        }
-        console.log(`results for ${query}:`, indices, results);
+        let indices = new Set();
 
+        for (let i = 0; i < queries.length; i++) {
+            if (queries[i].length < MIN_TOKEN_LENGTH) {
+                continue;
+            }
+
+            const matches = queries[i] in this.index ? this.index[queries[i]] : [];
+
+            if (indices.size == 0) {
+                indices = new Set(matches);
+                continue;
+            }
+
+            // Intersection of new and old
+            indices = new Set(matches.filter(v => indices.has(v)));
+        }
+        
+        for (const idx of indices) {
+            results.push(this.guides[idx]);
+        }
+
+        console.log(`results for ${query}:`, indices, results);
         return results;
     }
 }
