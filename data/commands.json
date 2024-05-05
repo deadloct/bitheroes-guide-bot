@@ -2103,5 +2103,30 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "guides-nft",
+        "webname": "NFT",
+        "description": "Information about BitVerse and Immutable NFTs",
+        "guides": [
+            {
+                "name": "Mentle88's NFT Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/19XwRGuJZxMngUYqPBYHlLQQmGTpZun0Y7OMOHFR0t3s/"
+                    }
+                ]
+            },
+            {
+                "name": "Whitepaper: Kongregate's official web3 specification for BitVerse NFTs and $BPXL",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://kongregate.gitbook.io/bitverse"
+                    }
+                ]
+            }
+        ]
     }
 ]
