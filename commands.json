@@ -1554,6 +1554,24 @@
                 ]
             },
             {
+                "name": "Captain_Crunchie's PDF Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Flakit",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-captaincrunchie.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
                 "name": "Commander's Pic Guide",
                 "builds": [
                     "Ancient Speed Bait",
