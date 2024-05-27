@@ -5,12 +5,16 @@
     font-family: "Playfair Display", Times, serif;
 }
 
-html, body {
+html {
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
 
+
 body {
+    padding: 0;
+    margin: 0;
     background-color: #222;
     color: white;
 }
