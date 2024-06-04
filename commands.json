@@ -1676,6 +1676,24 @@
                 ]
             },
             {
+                "name": "Maddbz's PDF Guide",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Captain Babosun",
+                    "Lerky",
+                    "Ulairius"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-maddbz.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
                 "name": "McSploosh's Build, Team, and Summary",
                 "builds": [
                     "Ancient Speed Bait"
