@@ -95,7 +95,7 @@ class Search {
 
 const BuildUI = (() => {
     async function getJSON() {
-        const response = await fetch("commands.json?202406132306");
+        const response = await fetch("commands.json?202406132342");
         const categories = await response.json();
         return categories;
     }
