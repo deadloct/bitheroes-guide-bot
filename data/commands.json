@@ -840,6 +840,25 @@
         "description": "Community t15d4 Firium/Flamium strategies",
         "guides": [
             {
+                "name": "Ee's Iron Fate PDF Guide",
+                "builds": [
+                    "Sigbiorn"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Drazig",
+                    "GlarzDos",
+                    "ITrolf X"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t15-ee.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
                 "name": "PocketApple8104's Firium Video Guide",
                 "attachments": [
                     {
