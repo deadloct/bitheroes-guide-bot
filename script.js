@@ -95,9 +95,22 @@ class Search {
 
 const BuildUI = (() => {
     async function getJSON() {
-        const response = await fetch("commands.json");
+        const response = await fetch("commands.json?202406132306");
         const categories = await response.json();
         return categories;
+    }
+
+    function obsolete(guide) {
+        if (guide.obsolete && guide.obsolete.length) {
+            return `
+                <div class="obsolete">
+                    <div class="obsolete-left"><i class="bi bi-x-circle-fill"></i></div>
+                    <div class="obsolete-center"><strong>Obsolete</strong><br />${guide.obsolete}</div>
+                    <div class="obsolete-right"><i class="bi bi-x-circle-fill"></i></div>
+                </div>`;
+        }
+
+        return "";
     }
 
     function fams(guide) {
@@ -139,6 +152,7 @@ const BuildUI = (() => {
         return `
             <li class="guide-item">
                 <div class="guide-name">${guide.name}</div>
+                ${obsolete(guide)}
                 ${fams(guide)}
                 ${builds(guide)}
                 ${attachments(guide)} 
