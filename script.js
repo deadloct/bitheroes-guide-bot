@@ -152,7 +152,7 @@ const BuildUI = (() => {
     function renderGuide(guide, isSearch) {
         let cat = "";
         if (isSearch && guide.categoryName) {
-            cat = `<div>Category: ${guide.categoryName}</div>`
+            cat = `<div><em>Category:</em> ${guide.categoryName}</div>`
         }
 
         return `
