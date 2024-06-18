@@ -12,6 +12,7 @@ class Search {
         for (const cat of categories) {
             for (const guide of cat.guides) {
                 let guideIndex = this.guides.length;
+                guide.categoryName = cat.webname;
                 this.guides.push(guide);
 
                 const getValues = (object, parents = []) => Object.assign({}, ...Object
@@ -148,13 +149,19 @@ const BuildUI = (() => {
         return `<ul>${guide.attachments.map(attachment).join("")}</ul>`
     }
 
-    function renderGuide(guide) {
+    function renderGuide(guide, isSearch) {
+        let cat = "";
+        if (isSearch && guide.categoryName) {
+            cat = `<div>Category: ${guide.categoryName}</div>`
+        }
+
         return `
             <li class="guide-item">
                 <div class="guide-name">${guide.name}</div>
                 ${obsolete(guide)}
                 ${fams(guide)}
                 ${builds(guide)}
+                ${cat}
                 ${attachments(guide)} 
             </li>
         `;
@@ -162,7 +169,6 @@ const BuildUI = (() => {
 
     function categoryName(category) {
         return category.webname || category.name.replace("guides-", "").replace("-", " ").trim();
-
     }
 
     function categoryAnchor(category) {
@@ -170,7 +176,7 @@ const BuildUI = (() => {
     }
 
     function renderCategory(category) {
-        const items = category.guides.map(renderGuide).join("");
+        const items = category.guides.map(g => renderGuide(g, category.isSearch)).join("");
         return `
             <h2 id="${categoryAnchor(category)}">${categoryName(category)}</h2>
             <div class="category-description">${category.description}</div>

@@ -595,6 +595,15 @@
                 ]
             },
             {
+                "name": "PrimeDyze",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@GioScott"
+                    }
+                ]
+            },
+            {
                 "name": "Tdizzle",
                 "attachments": [
                     {
@@ -1791,6 +1800,23 @@
                     {
                         "filename": "d4-t19-orcaaa-2.md",
                         "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "PrimeDyze's Video",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky",
+                    "Murbi"
+                ],
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=BEdltEjz2-M"
                     }
                 ]
             },
