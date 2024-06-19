@@ -546,11 +546,11 @@
     },
     {
         "name": "guides-content-creators",
-        "webname": "Content Creators",
-        "description": "List of known unofficial and official content creators",
+        "webname": "Content Creators and Streamers",
+        "description": "List of known streams and content creators",
         "guides": [
             {
-                "name": "antomanz",
+                "name": "antomanz's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -559,7 +559,7 @@
                 ]
             },
             {
-                "name": "ArcaneLD",
+                "name": "ArcaneLD's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -568,7 +568,7 @@
                 ]
             },
             {
-                "name": "bitverse_andy",
+                "name": "bitverse_andy's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -577,7 +577,7 @@
                 ]
             },
             {
-                "name": "Demi",
+                "name": "Demi's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -586,7 +586,16 @@
                 ]
             },
             {
-                "name": "Neflarian",
+                "name": "FergusFerret's Blog",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://bit-heroes.fandom.com/wiki/User_blog:Fergusferret"
+                    }
+                ]
+            },
+            {
+                "name": "Neflarian's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -595,7 +604,7 @@
                 ]
             },
             {
-                "name": "PrimeDyze",
+                "name": "PrimeDyze's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -604,7 +613,7 @@
                 ]
             },
             {
-                "name": "Tdizzle",
+                "name": "Tdizzle's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
@@ -613,7 +622,16 @@
                 ]
             },
             {
-                "name": "WRLD_EATR",
+                "name": "TrippyAfro's Twitch Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.twitch.tv/trippyafro"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR's YouTube Channel",
                 "attachments": [
                     {
                         "attachmenttype": "link",
